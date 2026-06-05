@@ -1,6 +1,6 @@
 - Getting Started
   - [Home](?page=index)
-  - [Wiki Activity Log](?page=log)
+  - [Activity Log](?page=log)
 
 - Essays
 - Topics

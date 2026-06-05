@@ -1,4 +1,4 @@
-# Wiki Activity Log
+# Activity Log
 
 ## [2026-06-03] query | 「メモリは目的が決める」の解説とHermes/Wikiへの適用性 → answered from 2 articles (standard)
 
