@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>あーしの執筆Wiki</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script>
+      // YAMLフロントマターをレンダリング前に除去するfetchインターセプター
+      const _originalFetch = window.fetch;
+      window.fetch = async function(...args) {
+        const response = await _originalFetch(...args);
+        const url = typeof args[0] === 'string' ? args[0] : (args[0].url ?? '');
+        if (url.endsWith('.md')) {
+          const text = await response.text();
+          const stripped = text.replace(/^---\r?\n[\s\S]*?\n---\r?\n/, '');
+          return new Response(stripped, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: response.headers
+          });
+        }
+        return response;
+      };
+    </script>
+    <script type="module">
+      import { initWiki } from "https://hacknock.github.io/lobster-wiki/lobster-wiki.js";
+
+      await initWiki("./wiki.config.json");
+
+      // 外部リンクに _blank を付ける
+      function markExternalLinks() {
+        document.querySelectorAll("a[href]").forEach(a => {
+          try {
+            const url = new URL(a.href, location.href);
+            if (url.origin !== location.origin) {
+              a.target = "_blank";
+              a.rel = "noopener noreferrer";
+            }
+          } catch {}
+        });
+      }
+
+      // 初回
+      markExternalLinks();
+
+      // ページ遷移後にも適用（MutationObserver）
+      const observer = new MutationObserver(markExternalLinks);
+      observer.observe(document.body, { childList: true, subtree: true });
+    </script>
+  </body>
+</html>

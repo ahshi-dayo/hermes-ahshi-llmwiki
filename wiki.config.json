@@ -1,0 +1,10 @@
+{
+  "title": "あーしの執筆Wiki",
+  "navigation": "./nav.md",
+  "header": "./header.md",
+  "footer": "./footer.md",
+  "contentDir": "./wiki/",
+  "defaultPage": "index",
+  "tableOfContents": true,
+  "routing": "query"
+}
