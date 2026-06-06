@@ -4,7 +4,8 @@
 
 - Essays
 - Topics
-  - Writing Theory
+  - Writing-theory
+    - [「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから](?page=topics/writing-theory/a-shi-first-person-approach)
     - [モンテーニュ『エセー』──自分を知ることと書くことの始まり](?page=topics/writing-theory/montaigne-essays)
     - [フランシス・ベーコン —— 「知より行」を書いた格言の人](?page=topics/writing-theory/francis-bacon-aphorist)
     - [Perspective Taking in Writing — 他者の視点を理解することの力](?page=topics/writing-theory/perspective-taking-writing)
@@ -15,6 +16,7 @@
     - [Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代](?page=topics/materials/meishow-mitei-chain-creation)
   - Books
     - [中島敦『山月記』──自意識と羞恥心が虎を生んだ](?page=topics/books/nakajima-zangetsuki)
+    - [ナン・シェパード『いきている山』──知識は謎を深め、山は生きている](?page=topics/books/nan-shepherd-the-living-mountain)
   - Tec
     - [Hermes Agent運用の教訓](?page=topics/tec/hermes-agent-usage)
     - [RAG入門](?page=topics/tec/rag-from-zero)
@@ -34,6 +36,7 @@
     - [ソロー『散歩（Walking）』 ── 歩くことは哲学である](?page=concepts/walking-philosophy/thoreau-walking)
 
 - Journal
+  - [2026-06-06 — スクリプト開発とコンパイルウォークスルー](?page=journal/2026-06-06)
   - [2026-06-05 — 外部リンク修正＆Perspective Taking記事コンパイル](?page=journal/2026-06-05)
   - [2026-06-03 — 構造整備の日](?page=journal/2026-06-03)
   - [2026-06-01 — 歩行の哲学ネットワークの爆誕！✨](?page=journal/2026-06-01)

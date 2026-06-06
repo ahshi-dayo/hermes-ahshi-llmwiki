@@ -2,32 +2,41 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-06-04
+Last updated: 2026-06-06
 
 ## Statistics
 
 - Concepts: 6
-|- Topics/writing-theory: 4
+- Topics/writing-theory: 5
 - Topics/materials: 3
-- Topics/books: 1
+- Topics/books: 2
 - Topics/tec: 7
 - Essays: 0
 - References: 2
-|- Total: 23
-- Raw sources: 24
+
+- Total: 25
+- Raw sources: 29
 
 ## Recent Changes
 
-|| Date | Action | Article |
-||------|--------|---------|
-|| 2026-06-05 | compile | [Perspective Taking in Writing](topics/writing-theory/perspective-taking-writing.md) — 2ソースを統合。議論は「勝つ」ことではなく「理解すること」。フィクションライティングが共感を育む。 |
-|| 2026-06-05 | compile | [Writing Pedagogies of Empathy](topics/writing-theory/writing-pedagogies-empathy.md) — Eric Leakeの論文をコンパイル。共感を「修辞」と「傾向」の2つのアプローチで教える。 |
-|| 2026-06-05 | ingest | 3件ingest（perspective-taking-points-of-view, perspective-taking-matter-writing, writing-pedagogies-empathy） |
-|| 2026-06-04 | compile | [Hermes Event Hooks — ライフサイクルでフックする自動化設計](topics/tec/hermes-event-hooks.md) — Gateway/Plugin/Shellの3種フックシステム。BOOT.mdパターン、pre_tool_callによるツールブロック、transform系フック。 |
-|| 2026-06-04 | ingest | 1件ingest（hermes-event-hooks） |
-|| 2026-06-03 | ingest | 1件ingest（memory-is-purpose） |
-|| 2026-06-03 | compile | [メモリは目的が決める ── AIエージェントにおける記憶の本質](concepts/ai-memory-purpose/hub.md) — 1ソースから新規。@ashwingop氏の考察をあーしが編訳・解説。 |
-|| 2026-06-03 | compile | [Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代](topics/materials/meishow-mitei-chain-creation.md) — 5ソースを統合。AI巻き込み型創作、地下アイドル文化との類似性、創作主体の変容を考察 |
+- [2026-06-06] create | 「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから (topics/writing-theory/a-shi-first-person-approach.md)
+- [2026-06-06] ingest | 「あーし」たちが守りたかったモノ――他者へのアプローチとしての一人称 (raw/notes/2026-06-06-a-shi-first-person-approach.md)
+- [2026-06-06] compile | ナン・シェパード『生きた山』──知識は謎を深め、山は生きている (topics/books/nan-shepherd-the-living-mountain.md) — 2ソース統合。知識が謎を深めるという逆説、山を一つの生命体として描いた自然文学の傑作。
+- [2026-06-06] ingest | "The Living Mountain: Pioneering Scottish Mountaineer and Poet Nan Shepherd's Forgotten Masterpiece About Our Relationship with Nature" (raw/notes/2026-06-06-the-living-mountain-pioneering-scottish-mountainee.md)
+- [2026-06-06] ingest | Nan Shepherd's Intimate Portrait of Mountains Forever Visited and Never Understood (raw/notes/2026-06-06-nan-shepherd-s-intimate-portrait-of-mountains-fore.md)
+
+| Date | Action | Article |
+|------|--------|---------|
+| 2026-06-06 | create | [「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから](topics/writing-theory/a-shi-first-person-approach.md) |
+| 2026-06-06 | compile | [ナン・シェパード『生きた山』──知識は謎を深め、山は生きている](topics/books/nan-shepherd-the-living-mountain.md) — 2ソースを統合。知識が謎を深めるという逆説、山を一つの生命体として描いた自然文学の傑作。 |
+| 2026-06-05 | compile | [Perspective Taking in Writing](topics/writing-theory/perspective-taking-writing.md) — 2ソースを統合。議論は「勝つ」ことではなく「理解すること」。フィクションライティングが共感を育む。 |
+| 2026-06-05 | compile | [Writing Pedagogies of Empathy](topics/writing-theory/writing-pedagogies-empathy.md) — Eric Leakeの論文をコンパイル。共感を「修辞」と「傾向」の2つのアプローチで教える。 |
+| 2026-06-05 | ingest | 3件ingest（perspective-taking-points-of-view, perspective-taking-matter-writing, writing-pedagogies-empathy） |
+| 2026-06-04 | compile | [Hermes Event Hooks — ライフサイクルでフックする自動化設計](topics/tec/hermes-event-hooks.md) — Gateway/Plugin/Shellの3種フックシステム。BOOT.mdパターン、pre_tool_callによるツールブロック、transform系フック。 |
+| 2026-06-04 | ingest | 1件ingest（hermes-event-hooks） |
+| 2026-06-03 | ingest | 1件ingest（memory-is-purpose） |
+| 2026-06-03 | compile | [メモリは目的が決める ── AIエージェントにおける記憶の本質](concepts/ai-memory-purpose/hub.md) — 1ソースから新規。@ashwingop氏の考察をあーしが編訳・解説。 |
+| 2026-06-03 | compile | [Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代](topics/materials/meishow-mitei-chain-creation.md) — 5ソースを統合。AI巻き込み型創作、地下アイドル文化との類似性、創作主体の変容を考察 |
 | 2026-06-03 | ingest | 5件ingest（maido系列5件） |
 | 2026-06-01 | compile | [歩行の哲学 ── 思想家たちが「移動」に見出した自由と知性](concepts/walking-philosophy/hub.md) 他、一連の歩行哲学記事を新規・更新 |
 | 2026-06-01 | ingest | Five philosophers on the joys of walking (raw/articles/2020-02-five-philosophers-joys-walking.md) |

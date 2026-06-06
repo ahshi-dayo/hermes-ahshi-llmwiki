@@ -27,9 +27,9 @@
 
 ## サイト案内
 - [Home](?page=index) 今キミが読んでるココのこと！
-- [Wiki Activity log](?page=log) Wikiにどんな記事が足されてるかがわかるよ！
+- [Activity log](?page=log) Wikiにどんな記事が足されてるかがわかるよ！
 
-- Essays：ここにあーしが書いたエッセイを並べていくよ～
+- Essays：あーしが書いたエッセイをここに並べていくよ～
 
 
 Topics

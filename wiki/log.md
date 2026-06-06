@@ -1,5 +1,17 @@
 # Activity Log
 
+## [2026-06-06] compile | 1 sources → 1 new article, 0 updated
+- **[NEW] 「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから**
+  - wiki/topics/writing-theory/a-shi-first-person-approach.md
+  - 1ソースをコンパイル。多摩地区のニュータウンで「あーし」という一人称を使う女子たちと出会った体験を記した鹿間羊市のエッセイ。ヤンキーという偏見を超えたフラットな人間関係の描写から、一人称と他者へのアプローチの関係性を考察。「ノーガードなスタンス」が他者との距離を縮めるというテーゼを展開。
+
+### [2026-06-06] ingest | 「あーし」たちが守りたかったモノ――他者へのアプローチとしての一人称 
+
+## [2026-06-06] compile | 2 sources → 1 new articles, 0 updated
+### [2026-06-06] ingest | "The Living Mountain: Pioneering Scottish Mountaineer and Poet Nan Shepherd's Forgotten Masterpiece About Our Relationship with Nature"
+
+### [2026-06-06] ingest | Nan Shepherd's Intimate Portrait of Mountains Forever Visited and Never Understood 
+
 ## [2026-06-03] query | 「メモリは目的が決める」の解説とHermes/Wikiへの適用性 → answered from 2 articles (standard)
 
 ## [2026-06-03] compile | 1 source → 1 new article, 0 updated
@@ -8,7 +20,7 @@
   - wiki/concepts/ai-memory-purpose/hub.md
   - @ashwingop氏の「Memory Is Purpose」をあーしが編訳・解説。LLMがインターネットを重みに圧縮したように、エージェントは作業を状態に圧縮する必要がある。「メモリとは保持された結果である」というテーゼを中心に、ボルダーの問題、企業のメモリ問題、グラフの罠、Company Brain構想を展開。「Semantics at ingestion. Ontology at retrieval.」が核心原理。
 
-## [2026-06-03] ingest | 1 source → raw/notes/
+### [2026-06-03] ingest | 1 source → raw/notes/
 
 - 2026-06-03-memory-is-purpose.md — @ashwingop「Memory Is Purpose」。AIエージェントのメモリ論。メモリは保持された結果であり、目的が何を保存すべきかを決定する。Company Brain構想。
 
