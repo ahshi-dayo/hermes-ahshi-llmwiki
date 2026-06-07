@@ -1,5 +1,50 @@
 # Activity Log
 
+## [2026-06-08] lint | 7 checks, 0 critical, 0 warnings, 2 suggestions, 3 auto-fixed
+
+C1: Structure — OK
+C2: Frontmatter — 22 pre-existing missing fields (journals, concepts, references, log; not new)
+C3: Index Consistency — Fixed: added Journal: 8 to stats, corrected Total 27→36
+C4: Link Integrity — Fixed 3 missing bidirectional See Also links (francis-bacon-aphorist, nakajima-zangetsuki, rousseau-reveries → montaigne-embodiment-aging)
+C5: Tag Hygiene — OK (no near-duplicates)
+C6: Coverage — 16 orphan raw sources (pre-existing), 15 orphan articles (pre-existing)
+
+## [2026-06-08] compile | 3 sources → 1 new article, 1 updated
+
+- **[NEW] モンテーニュの身体と老化──エッセイに刻まれた身体化された移行**
+  - wiki/topics/writing-theory/montaigne-embodiment-aging.md
+  - 3ソースを統合。老年学×身体化された認知の視点からモンテーニュの身体・老化・死を読み解く。馬上落下による死に近い体験、記憶力の欠如と嘘をつけないこと、人生の年代を超えた自己観察。
+- **[UPDATED] モンテーニュ『エセー』──自分を知ることと書くことの始まり**
+  - wiki/topics/writing-theory/montaigne-essays.md
+  - See Alsoに「モンテーニュの身体と老化」を追加。双方向リンクを確立。
+
+## [2026-06-08] ingest | モンテーニュの『エセー』を読む(9)（嘘つきについて）(raw/notes/2026-06-08-montaigne-essais-ch9-liars.md)
+
+hatenablog「ambos」によるモンターニュ『エセー』第9章「嘘つきについて」の読書ノート。フランス語原文・原二郎訳（岩波文庫）・解説の3層構成。モンターニュが記憶力の欠如を自認し、プラトンの記憶重視に逆らって「すぐれた記憶は弱い判断力と結びやすい」と主張。記憶力が弱いことの利点（他人に流されない、言葉が簡素、嘘をつけない）を列挙。嘘は記憶力が必要だが、記憶が弱いと嘘をつけないという指摘。
+
+## [2026-06-08] ingest | Montaigne and the Ages of Life (raw/notes/2026-06-08-montaigne-ages-of-life.md)
+
+Wednesday Blog by Seán Thomas Kane。モンターニュの人生の年代に関するエッセイ。Philippe Desanの評伝を読みながら、モンターニュが『無駄について』（III.9）で「自分は変わった。しかしどちらが良いかは言えない」と振り返った言葉に共感し、著者自身の人生の年代（高校時代→博士課程→現在）と重ね合わせる。モンターニュの1588年版『エセー』への加筆修正と、著者自身の過去の文章を読み返す体験も対比。
+
+## [2026-06-08] ingest | Embodied Transitions in Michel de Montaigne (raw/articles/2026-06-08-montaigne-embodied-transitions.md)
+
+PDF論文をpupdfでテキスト抽出してingest。モンテーニュのエッセイにおける身体性と認知の関係を老年学の視点から分析した学術論文。死に近い体験（馬上落下）、老化に伴う認知機能の変化、死への移行を「身体化された移行」（embodied transitions）として読み解く。Routledge "Bodies in Transition in the Health Humanities" 収録。
+
+## [2026-06-06] query | 「君のヘルメスあーしwikiの売りは何だと思いますか。またその売りを活かすためにはどのような記事をingestしていけばいいと思いますか？」 → answered from 11 articles (deep)
+
+## [2026-06-06] compile | 1 sources → 1 new article, 0 updated
+- **[NEW] 14歳からのアンチワーク哲学──なぜ僕らは働きたくないのか？**
+  - wiki/topics/books/14-sai-kara-no-anti-work-tetsugaku.md
+  - 1ソースをコンパイル。ホモ・ネーモ『14歳からのアンチワーク哲学』の解説・参考文献から。労働の定義、貨幣権力説、社畜心理、ベーシックインカム、ブルシット・ジョブ、自由の帰結などを解説。
+
+## [2026-06-06] update | 対話メモ追記 — アンチワーク哲学の「責任なき誘惑」問題
+
+wiki/topics/books/14-sai-kara-no-anti-work-tetsugaku.md に 🗣️ キミとの対話メモを追記。アンチワーク哲学は「強制を排除しろ」と言いながら、じゃあどうやって社会を回すのか（財源・実践論）に触れてない問題をキミが指摘。「問題提起と解決策のギャップ」として考察。
+
+## [2026-06-06] query | 「このアンチワーク哲学の人、結局僕たちにどう生きるべきだって言ってるのかな？」 → answered from 1 article (standard)
+- ホモ・ネーモ著『14歳からのアンチワーク哲学』の解説・参考文献をingest。
+- 労働の定義（他者より強制される不愉快な営み）、ハンナ・アレントやマルクスとの比較、社畜心理、ベーシックインカム論など。
+
 ## [2026-06-06] compile | 1 sources → 1 new article, 0 updated
 - **[NEW] 「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから**
   - wiki/topics/writing-theory/a-shi-first-person-approach.md

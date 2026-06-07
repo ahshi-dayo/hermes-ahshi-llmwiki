@@ -1,7 +1,10 @@
 ---
 title: "デフォルトモードネットワーク（DMN）──脳が何もしていないときに本当にしていること"
 created: 2026-06-01
+date: 2026-06-01
 updated: 2026-06-01
+confidence: high
+summary: "脳のデフォルトモードネットワーク（DMN）の全体像。何もしていないときに脳が自己参照処理を行い、創造性・内的ナラティブ・他者理解を生むメカニズム。Vinod MenonインタビューとDMN-創造性研究の2ソースを統合。"
 tags: [neuroscience, DMN, default-mode-network, mind-wandering, creativity, consciousness, self, Vinod-Menon, Emmanuelle-Volle, Roger-Beaty]
 sources:
   - raw/articles/2026-06-01-dmn-creativity.md

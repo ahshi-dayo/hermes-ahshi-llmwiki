@@ -78,6 +78,7 @@ sources:
 - [モンテーニュ『エセー』](?page=topics/writing-theory/montaigne-essays) ── 「他人のために書く」vs「自分のために書く」
 - [ソロー『散歩（Walking）』](?page=concepts/walking-philosophy/thoreau-walking) ── 野生への抵抗（ソロー） vs 迫害からの逃避（ルソー）
 - [デフォルトモードネットワーク（DMN）](?page=topics/materials/default-mode-network) ── ルソーの「内的ナラティブ」の科学的解説
+- [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](?page=topics/writing-theory/montaigne-embodiment-aging) ── 「自分のために書く」エッセイの系譜。ルソーの散歩とモンテーニュの書く身体
 
 ## Sources
 

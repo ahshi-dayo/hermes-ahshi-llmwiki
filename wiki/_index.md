@@ -2,23 +2,40 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-06-06
+Last updated: 2026-06-08
+Last lint: 2026-06-08
 
 ## Statistics
 
 - Concepts: 6
-- Topics/writing-theory: 5
+- Topics/writing-theory: 6
 - Topics/materials: 3
-- Topics/books: 2
+- Topics/books: 3
 - Topics/tec: 7
-- Essays: 0
+- Essays: 1
 - References: 2
+- Journal: 8
 
-- Total: 25
-- Raw sources: 29
+- Total: 36
+- Raw sources: 32
 
 ## Recent Changes
 
+- [2026-06-08] compile | 3 sources → 1 new article, 1 updated
+- **[NEW] モンテーニュの身体と老化──エッセイに刻まれた身体化された移行**
+  - wiki/topics/writing-theory/montaigne-embodiment-aging.md — 3ソースを統合。老年学×身体化された認知の視点からモンテーニュの身体・老化・死を読み解く。馬上落下による死に近い体験、記憶力の欠如と嘘をつけないこと、人生の年代を超えた自己観察。
+- **[UPDATED] モンテーニュ『エセー』──自分を知ることと書くことの始まり**
+  - wiki/topics/writing-theory/montaigne-essays.md — See Alsoに「モンテーニュの身体と老化」を追加。双方向リンクを確立。
+
+- [2026-06-08] ingest | モンテーニュの『エセー』を読む(9)（嘘つきについて）(raw/notes/2026-06-08-montaigne-essais-ch9-liars.md) — モンターニュ『エセー』第9章の読書ノート。記憶力の欠如を自認し、嘘をつけないこととの関連を考察。
+
+- [2026-06-08] ingest | Montaigne and the Ages of Life (raw/notes/2026-06-08-montaigne-ages-of-life.md) — Seán Thomas Kaneによるモンテーニュの人生の年代に関するエッセイ。Desanの評伝を読みながら、モンテーニュが『無駄について』で自分自身の変化を振り返った言葉に共感。
+
+- [2026-06-08] ingest | Embodied Transitions in Michel de Montaigne (raw/articles/2026-06-08-montaigne-embodied-transitions.md) — モンテーニュのエッセイにおける身体性と認知の関係を老年学の視点から分析。死に近い体験、老化に伴う認知機能の変化、死への移行を「身体化された移行」として読み解く。
+
+- [2026-06-07] essay | Que sais-je? ── wikiを作ったのに、書けない。でも書く。 (essays/2026-06-07-que-sais-je-first-essay.md) — hermes-wiki初エッセイ。知識を積むほど謎が深まるというシェパードの逆説、李徴の自意識、モンテーニュの「試みること」、「あーし」という一人称のノーガードさを重ねて。
+
+- [2026-06-06] compile | 14歳からのアンチワーク哲学──なぜ僕らは働きたくないのか？ (topics/books/14-sai-kara-no-anti-work-tetsugaku.md) — 1ソースから新規。労働の定義、貨幣権力説、社畜心理、ベーシックインカム、ブルシット・ジョブ、自由の帰結など。
 - [2026-06-06] create | 「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから (topics/writing-theory/a-shi-first-person-approach.md)
 - [2026-06-06] ingest | 「あーし」たちが守りたかったモノ――他者へのアプローチとしての一人称 (raw/notes/2026-06-06-a-shi-first-person-approach.md)
 - [2026-06-06] compile | ナン・シェパード『生きた山』──知識は謎を深め、山は生きている (topics/books/nan-shepherd-the-living-mountain.md) — 2ソース統合。知識が謎を深めるという逆説、山を一つの生命体として描いた自然文学の傑作。
