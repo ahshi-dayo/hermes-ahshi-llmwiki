@@ -1,10 +1,13 @@
 ---
 title: "Hermes Event Hooks — ライフサイクルでフックする自動化設計"
-source: "https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks"
-type: tec
 created: 2026-06-04
-tags: [hermes, hooks, gateway, plugin, event, lifecycle, automation]
+date: 2026-06-04
+updated: 2026-06-04
+tags: [hermes-agent, hooks, gateway, plugin, event, lifecycle, automation]
+confidence: high
 summary: "Hermes Agentの3種フックシステム（Gateway/Plugin/Shell）の仕様と実装パターン。BOOT.mdパターン、pre_tool_callによるツールインターセプト、transform系フックによる出力加工などを解説。"
+sources:
+  - "https://hermes-agent.nousresearch.com/docs/user-guide/features/hooks"
 ---
 
 # Hermes Event Hooks — ライフサイクルでフックする自動化設計

@@ -1,8 +1,11 @@
 ---
 title: "ルソー『散歩する孤独な人の夢』── 迫害された思想家が自然に還るまで"
+date: 2026-06-01
 created: 2026-06-01
 updated: 2026-06-01
-tags: [Jean-Jacques-Rousseau, ロマン主義, 散歩, 夢, 自伝, フランス文学, 自然, 孤独, 内的ナラティブ, エッセイ, DMN]
+tags: ['Jean-Jacques-Rousseau', 'ロマン主義', '散歩', '夢', '自伝', 'フランス文学', '自然', '孤独', '内的ナラティブ', 'エッセイ']
+confidence: high
+summary: "ルソー最期の著作『散歩する孤独な人の夢』。迫害から逃れ10の「散歩」を書き連ねた、内的ナラティブとDMNの先駆的記録。"
 sources:
   - raw/articles/2026-06-01-rousseau-reveries.md
   - raw/articles/2026-06-01-walking-thinkers.md
@@ -76,9 +79,10 @@ sources:
 ## See Also
 
 - [モンテーニュ『エセー』](?page=topics/writing-theory/montaigne-essays) ── 「他人のために書く」vs「自分のために書く」
-- [ソロー『散歩（Walking）』](?page=concepts/walking-philosophy/thoreau-walking) ── 野生への抵抗（ソロー） vs 迫害からの逃避（ルソー）
+- [ソロー『散歩（Walking）』](?page=topics/materials/thoreau-walking) ── 野生への抵抗（ソロー） vs 迫害からの逃避（ルソー）
 - [デフォルトモードネットワーク（DMN）](?page=topics/materials/default-mode-network) ── ルソーの「内的ナラティブ」の科学的解説
 - [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](?page=topics/writing-theory/montaigne-embodiment-aging) ── 「自分のために書く」エッセイの系譜。ルソーの散歩とモンテーニュの書く身体
+- [ニーチェとカント ── 身体の情熱 vs 規律の散歩](?page=topics/materials/nietzsche-kant-walking) ── ルソーの情熱的歩行との比較
 
 ## Sources
 

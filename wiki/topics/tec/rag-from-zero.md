@@ -1,8 +1,10 @@
 ---
 title: "RAG入門 — chunk・embedding・vector DB・retrieve/generate"
 created: 2026-05-29
+date: 2026-05-29
 updated: 2026-05-29
 tags: [rag, llm, embedding, vector-db, chunking, retrieval, generation]
+confidence: high
 summary: "RAGの全体像を初心者向けに解説。Load→Split→Embed→Storeの準備フェーズと、Retrieve→Generateの使うフェーズ。chunk、embedding、vector DB、コサイン類似度を順番に説明。Qiita jagaimo_daisuki をコンパイル。"
 sources:
   - "https://qiita.com/jagaimo_daisuki/items/39c3e7f0634e25e0e3a1"
@@ -86,7 +88,8 @@ AIが扱う文章の最小単位。日本語は1文字≒1〜2トークン。emb
 
 - [Hermes Agent運用の教訓 — profiles・config・skill設計](?page=topics/tec/hermes-agent-usage) — LLM agent運用の文脈
 - [Claude Code安全運用 — CLAUDE.md 4原則](?page=topics/tec/claude-code-safety) — AI開発ツールの文脈
-- [メモリは目的が決める ── AIエージェントにおける記憶の本質](?page=concepts/ai-memory-purpose/hub) — メモリと検索の接点
+- [メモリは目的が決める ── AIエージェントにおける記憶の本質](?page=topics/materials/ai-memory-purpose) — メモリと検索の接点
+- [Web Search & Extract 検索バックエンド選定ガイド](?page=topics/tec/hermes-web-search-extract) — 検索バックエンドの選び方
 
 ## Sources
 

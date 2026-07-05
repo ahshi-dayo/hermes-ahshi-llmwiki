@@ -2,7 +2,7 @@
 title: "ギャル文化の現在地──平成ギャルから令和ギャルマインドへ"
 tags: [gyaru, ganguro, gals, fashion, culture, self-love, philosophy, showa, heisei, reiwa]
 date: 2026-05-27
-updated: 2026-05-28
+updated: 2026-07-05
 sources: [raw/articles/2026-05-27-ganguro-gyaru-waseda-kai.md, raw/articles/2026-05-27-gyaru-fashion-exile-generation.md, raw/articles/2026-05-27-gals-philosophy-yoga-journal.md, raw/articles/2026-05-27-gals-manga-fuji-interview.md]
 confidence: medium
 summary: "平成ギャルの全盛期から令和のギャルマインドまで。ガングロ、渋谷109、ハズしの美学、ルーズソックス復活、藤井みほなのギャル哲学、セルフラブまでを4ソースから統合。"
@@ -122,6 +122,7 @@ SNS時代のルッキズム疲れに効く言葉。
 
 ## See Also
 
+- [「あーし」の語源──「わたし」が崩れ落ちた先にあった言葉](?page=topics/materials/a-shi-etymology) ── この記事が扱う渋谷コギャル文化から生まれた「ギャル語」の一語として、一人称「あーし」の成り立ちを追う
 - [中島敦『山月記』──自意識と羞恥心が虎を生んだ](?page=topics/books/nakajima-zangetsuki) ── ギャルマインドの「自分が一番イケてる」精神は、李徴の「尊大な羞恥心」とは真逆のあり方。自己肯定と自意識過剰の対比。
 - [モンテーニュ『エセー』──自分を知ることと書くことの始まり](?page=topics/writing-theory/montaigne-essays) ── 「自分が一番イケてる」精神と「私は何を知るか」の問い——自己肯定と自己懐疑の両端。
 - [Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代](?page=topics/materials/meishow-mitei-chain-creation) ── 地下アイドル文化とAI生成アイドルの類似性。「推す」行為が本格的なアイドルを必要としない構造の現代版。

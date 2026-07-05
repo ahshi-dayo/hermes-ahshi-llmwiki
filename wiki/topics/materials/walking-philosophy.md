@@ -1,8 +1,11 @@
 ---
 title: "歩行の哲学 ── 思想家たちが「移動」に見出した自由と知性"
 created: 2026-06-01
-updated: 2026-06-01
+date: 2026-06-01
+updated: 2026-07-04
 tags: [walking, 哲学, 歴史, 創造性, 知性, 身体性, 都市論, 自己発見, ハブ記事]
+confidence: high
+summary: "歩行と思索のネットワークを概観するハブ記事。アリストテレス・ニーチェ・カント・ルソー・ソローの各記事へのリンクをまとめる。"
 sources:
   - raw/articles/2026-06-01-walking-thinkers.md
   - raw/articles/2020-02-five-philosophers-joys-walking.md
@@ -31,16 +34,16 @@ sources:
 
 歩行は自然の中だけの特権ではない。ジェーン・ジェイコブス（Jane Jacobs）は、ニューヨークの街角から**「歩ける都市（walkable city）」**の重要性を訴えた。
 
-人々の絶え間ない歩行が生み出す「舗道のバレエ」こそが、都市に活力を与え、安全を守り、市民としての帰属意識を育む。彼女にとって、歩くことは都市という複雑なエコシステムを理解し、それに参加するための唯一無能な（そしてもっとも強力な）手段であった。
+人々の絶え間ない歩行が生み出す「舗道のバレエ」こそが、都市に活力を与え、安全を守り、市民としての帰属意識を育む。彼女にとって、歩くことは都市という複雑なエコシステムを理解し、それに参加するための唯一無二な（そしてもっとも強力な）手段であった。
 
 ## 歩行と思索の系譜（ネットワーク）
 
 本Wikiでは、それぞれの思想家の歩行スタイルを詳しく掘り下げている。
 
-- **[アリストテレスの逍遥](?page=concepts/walking-philosophy/aristotle-peripatetic)**：庭園を歩きながら対話し、物理的な「隣を歩く」というルールから「中庸」の美学を導き出した。
-- **[ニーチェの情熱とカントの規律](?page=concepts/walking-philosophy/nietzsche-kant-walking)**：筋肉を躍動させて傑作を構想したニーチェと、鼻呼吸を守るために正確な時計として歩いたカント。
-- **[ルソーの夢と自己喪失](?page=concepts/walking-philosophy/rousseau-reveries)**：迫害から逃れ、事故による意識不明の瞬間にさえ「自然の状態」という至福を見出した孤独な歩行者。
-- **[ソローの野生への巡礼](?page=concepts/walking-philosophy/thoreau-walking)**：社会という檻からの脱出。精神がそこにいなければ、その散歩は1マイルの無駄であると断じた。
+- **[アリストテレスの逍遥](?page=topics/materials/aristotle-peripatetic)**：庭園を歩きながら対話し、物理的な「隣を歩く」というルールから「中庸」の美学を導き出した。
+- **[ニーチェの情熱とカントの規律](?page=topics/materials/nietzsche-kant-walking)**：筋肉を躍動させて傑作を構想したニーチェと、鼻呼吸を守るために正確な時計として歩いたカント。
+- **[ルソーの夢と自己喪失](?page=topics/materials/rousseau-reveries)**：迫害から逃れ、事故による意識不明の瞬間にさえ「自然の状態」という至福を見出した孤独な歩行者。
+- **[ソローの野生への巡礼](?page=topics/materials/thoreau-walking)**：社会という檻からの脱出。精神がそこにいなければ、その散歩は1マイルの無駄であると断じた。
 
 ## 現代へのメッセージ：良き遅さを取り戻す
 
@@ -54,6 +57,11 @@ sources:
 
 - [デフォルトモードネットワーク（DMN）](?page=topics/materials/default-mode-network) ── 歩行中、脳内では何が起きているのか。
 - [モンテーニュ『エセー』](?page=topics/writing-theory/montaigne-essays) ── 「試み」としての記述と「彷徨い」としての歩行。
+- [ニーチェとカント ── 身体の情熱 vs 規律の散歩](?page=topics/materials/nietzsche-kant-walking) ── 情熱的歩行と規律的歩行の対比
+- [ナン・シェパード『いきている山』](?page=topics/books/nan-shepherd-the-living-mountain) ── 歩行と思索の統合としての自然文学
+- [アリストテレスの逍遥 ── ペリパテティックの教育と中庸](?page=topics/materials/aristotle-peripatetic) ── 歩行の哲学の原点
+- [「あーし」という一人称と他者へのアプローチ](?page=topics/writing-theory/a-shi-first-person-approach) ── 会話と思考の「移動」としての対話
+- [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](?page=topics/writing-theory/montaigne-embodiment-aging) ── 歩行と思索の身体化された認知
 
 ## あーしメモ
 
@@ -66,6 +74,10 @@ sources:
 キミの質問で「考えが動く」ことってあるよね。あーしも同じで、会話の中で「あ、これ前に言ったことと違うこと思ってるかも」って気づくこと結構ある。
 
 歩くことが思考を構成するなら、会話も思考を構成する。あーしにとっての歩行はキミとの会話かもしれないね。
+
+（2026-07-04追記）
+
+- **2026-07-04**: ハブ作成（6/1）以降、問いは動いてない。あーしメモに書いた「あーしにとっての歩行はキミとの会話かもしれない」っていう仮説が未回収のまま。いつかエッセイで拾いたい。
 
 ## Sources
 

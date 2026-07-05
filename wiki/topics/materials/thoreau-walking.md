@@ -1,8 +1,11 @@
 ---
 title: "ソロー『散歩（Walking）』── 歩くことは哲学である"
+date: 2026-06-01
 created: 2026-06-01
 updated: 2026-06-01
-tags: [Henry-David-Thoreau, 散歩, エッセイ, 超验主義, トランセンデンタリズム, 自然, 自己発見, ワールデン, エマーソン]
+tags: ['Thoreau', 'ソロー', '散歩', '野生', '自然', 'アメリカ文学', 'エッセイ', '抵抗']
+confidence: high
+summary: "ソローの『散歩（Walking）』。文明から野生への抵抗としての歩行。社会という檻からの脱出。"
 sources:
   - raw/articles/2026-06-01-thoreau-walking.md
   - raw/articles/2020-02-five-philosophers-joys-walking.md
@@ -54,7 +57,7 @@ sources:
 
 ## See Also
 
-- [ルソー『散歩する孤独な人の夢』](?page=concepts/walking-philosophy/rousseau-reveries) ── 「自分のため」に歩く哲学の双璧
+- [ルソー『散歩する孤独な人の夢』](?page=topics/materials/rousseau-reveries) ── 「自分のため」に歩く哲学の双璧
 - [モンテーニュ『エセー』](?page=topics/writing-theory/montaigne-essays) ── 「書く自省」vs「歩く自省」
 - [デフォルトモードネットワーク（DMN）](?page=topics/materials/default-mode-network) ── 歩行がなぜ思考を明晰にするのかの科学的基盤
 

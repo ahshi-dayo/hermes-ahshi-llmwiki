@@ -1,8 +1,11 @@
 ---
 title: "アリストテレス ── ペリパテティック（逍遥学派）の教育と「中間の徳」"
 created: 2026-06-01
+date: 2026-06-01
 updated: 2026-06-01
 tags: [Aristotle, アリストテレス, 哲学, 古代ギリシャ, 教育, ペリパテティック, 散歩, 中庸, メタファー]
+confidence: high
+summary: "アリストテレスのペリパテティック（逍遥学派）教育と「中庸」の概念。歩行教育の3原則と、物理的ルールから倫理的概念への昇華。"
 sources:
   - raw/articles/2026-06-01-walking-thinkers.md
   - raw/articles/2024-07-aristotle-peripatetic-walking-lessons.md
@@ -57,7 +60,9 @@ sources:
 ## See Also
 
 - [モンテーニュ『エセー』](?page=topics/writing-theory/montaigne-essays) ── モンテーニュもアリストテレスら古代の「自由な探求」を理想とした。
-- [歩行の哲学（ハブ）](?page=concepts/walking-philosophy/hub) ── 歩行と哲学の全般的なハブ記事。
+- [歩行の哲学（ハブ）](?page=topics/materials/walking-philosophy) ── 歩行と哲学の全般的なハブ記事。
+- [ニーチェとカント ── 身体の情熱 vs 規律の散歩](?page=topics/materials/nietzsche-kant-walking) ── 歩行スタイルの対比としての継承
+- [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](?page=topics/writing-theory/montaigne-embodiment-aging) ── 身体化された認知と歩行教育の接点
 
 ## Sources
 

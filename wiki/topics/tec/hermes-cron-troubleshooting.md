@@ -1,8 +1,12 @@
 ---
 title: "Hermes Agent — Cron トラブルシューティング完全ガイド"
 date: 2026-05-31
+updated: 2026-05-31
 tags: [hermes-agent, cron, troubleshooting, devops, automation, gateway]
+confidence: high
 summary: "Hermes Agentのcronジョブが動かないときの診断手順。ジョブが発火しない、配信失敗、スキル読み込み失敗、エラーの4カテゴリ別チェックリストと対処法。"
+sources:
+  - "https://hermes-agent.nousresearch.com/docs/guides/cron-troubleshooting"
 ---
 
 # Hermes Agent — Cron トラブルシューティング完全ガイド
@@ -189,6 +193,7 @@ hermes skills list                  # インストール済みスキル確認
 - [Web Search & Extract 検索バックエンド選定ガイド](?page=topics/tec/hermes-web-search-extract) — cronジョブの検索手段選定
 - [DuckDuckGo Search — ddgs CLI による無料Web検索](?page=topics/tec/hermes-duckduckgo-search) — DDGSの詳細な使い方
 - [Hermes Agent運用の教訓](?page=topics/tec/hermes-agent-usage) — profiles・config・skill設計
+- [Hermes Event Hooks — ライフサイクルでフックする自動化設計](?page=topics/tec/hermes-event-hooks) — フックシステム設計
 
 ## Sources
 

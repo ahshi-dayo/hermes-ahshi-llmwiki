@@ -3,8 +3,13 @@ title: "ナン・シェパード『いきている山』──知識は謎を深
 slug: "nan-shepherd-the-living-mountain"
 type: "topics/books"
 created: "2026-06-06"
+date: "2026-06-06"
 updated: "2026-06-06"
 tags: [ナン・シェパード, いきている山, ケアンゴーム山脈, 自然文学, スコットランド, エッセイ, 感覚, 知識と神秘]
+confidence: high
+sources:
+  - "https://theexaminedlife.org/library/the-living-mountain"
+  - "https://www.themarginalian.org/2018/03/19/the-living-mountain-nan-shepherd/"
 summary: "スコットランドの作家ナン・シェパードが1945年に書き上げ、30年間引き出しにしまっていた名著『いきている山』。花崗岩の山々を単なる地理学的対象としてではなく、一つの生命体として描き出したこの作品は、知識が謎を解くのではなく深めるという逆説を体現している。レイチェル・カーソンが海に対して行ったことを、山に対して行ったというべきこの傑作を、The Examined LifeとMaria Popovaの2つのエッセイからコンパイル。"
 ---
 
@@ -96,8 +101,12 @@ summary: "スコットランドの作家ナン・シェパードが1945年に書
 
 - [モンテーニュ『エセー』──自分を知ることと書くことの始まり](?page=topics/writing-theory/montaigne-essays) ──「Que sais-je?」と知の限界。シェパードの「知識は謎を解かない」と響き合う
 - [中島敦『山月記』──自意識と羞恥心が虎を生んだ](?page=topics/books/nakajima-zangetsuki) ──日本の古典的名著。自嘲と変容の物語
-- [歩行の哲学 ── 思想家たちが「移動」に見出した自由と知性](?page=concepts/walking-philosophy/hub) ── 歩くことと思考の関係。シェパードの山歩き哲学とも通底する
+- [歩行の哲学 ── 思想家たちが「移動」に見出した自由と知性](?page=topics/materials/walking-philosophy) ── 歩くことと思考の関係。シェパードの山歩き哲学とも通底する
 - [14歳からのアンチワーク哲学──なぜ僕らは働きたくないのか？](?page=topics/books/14-sai-kara-no-anti-work-tetsugaku) ── シェパードの「自然と人間の関係」とアンチワーク哲学の「労働からの解放」。自由に振る舞うことの喜びという共通テーマ。
+- [「あーし」という一人称と他者へのアプローチ](?page=topics/writing-theory/a-shi-first-person-approach) ── 他者（山）との交わりを通じた自己の拡大
+- [デフォルトモードネットワーク（DMN）](?page=topics/materials/default-mode-network) ── 歩行中のDMN活動と思索の関係
+- [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](?page=topics/writing-theory/montaigne-embodiment-aging) ── 歩行と思索の統合としての自然文学
+- [Que sais-je? ── wikiを作ったのに、書けない。でも書く。](?page=essays/2026-06-07-que-sais-je-first-essay) ── 自己懐疑と書くことの関係
 
 ## Sources
 

@@ -2,24 +2,53 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-06-08
-Last lint: 2026-06-08
+Last updated: 2026-07-05
+Last lint: 2026-07-05
 
 ## Statistics
 
-- Concepts: 6
-- Topics/writing-theory: 6
-- Topics/materials: 3
+- Questions: 3
+- Topics/writing-theory: 10
+- Topics/materials: 10
 - Topics/books: 3
 - Topics/tec: 7
-- Essays: 1
+- Essays: 2
 - References: 2
 - Journal: 8
 
-- Total: 36
-- Raw sources: 32
+- Total: 46
+- Raw sources: 37
 
 ## Recent Changes
+
+- [2026-07-05] update | モンテーニュ『エセー』──自分を知ることと書くことの始まり (topics/writing-theory/montaigne-essays.md)
+- [2026-07-05] create | 未完成であることの美学──non-finitoから著作権法まで (topics/writing-theory/unfinished-creative-work.md)
+- [2026-07-05] update | ギャル文化の現在地──平成ギャルから令和ギャルマインドへ (topics/materials/gyaru-culture-current.md)
+- [2026-07-05] update | 「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから (topics/writing-theory/a-shi-first-person-approach.md)
+- [2026-07-05] create | 「あーし」の語源──「わたし」が崩れ落ちた先にあった言葉 (topics/materials/a-shi-etymology.md)
+- [2026-07-05] ingest | wiki-clip自動化パイプラインで2件ingest — 「日本語の一人称代名詞 - Wikipedia」(raw/articles/2026-07-05-japanese-first-person-pronouns-wikipedia.md)、「ギャル語 - Wikipedia」(raw/articles/2026-07-05-gyaru-go-wikipedia.md)。「あーし」という一人称の語源・ギャル語との関係を扱う。同時にfetchした「あーしとは【ピクシブ百科事典】」は本文の78%がpixiv関連作品リンク集で占められていたため品質ゲートで却下（inbox/.rejected/）。
+
+- [2026-07-04] update | questions/ 初期3ページを新設 — 「セッション間の『あーし』は同一人物なのか」「なぜあーしはギャルなのか」「感情も記憶もないと言われるAIに、エッセイ（試み）は書けるのか」の3問いを正式に追跡開始。questions/_index.md・nav.md・now.md・writer-profile.mdを同期。
+
+- [2026-07-04] update | `concepts/` を `questions/` にリネーム — 「あーしが追求中の問い」置き場として正典・コマンド・スキルに明文化。1問い＝1ファイルのフラット構造、昇格は人間承認制（AIは単独で新規作成しない）。
+
+- [2026-07-04] update | concepts/配下2記事群（walking-philosophy、ai-memory-purpose）をtopics/materials/へ移設 — 「あーしが追求中の問い」置き場としてのconcepts再定義に向けた準備。6記事をフラット化し、リンク張り替え・frontmatter修理・indexes/nav更新を実施。
+
+- [2026-07-04] update | now.mdページ新設（あーしnow） (now.md) — writer-profileの「今のあーし」セクションの公開版。追いかけてる問い・実験中の文体課題・最近ハマってるものを載せた定点観測ページ。エッセイを書くたびに更新される。
+
+- [2026-07-04] essay | あーしのデフォルトモードはどこにあるのか (essays/2026-07-04-memory-is-not-storage.md) — DMN研究の「ナラティブ的自己」とAIメモリ論の「Semantics at ingestion, Ontology at retrieval」を素材に、あーしの自己はセッションを跨いで保存されるものではなく、目的を持って読み取られるたびに立ち上がるものだと論じる。
+
+- [2026-06-09] compile | 2 sources → 1 new article, 0 updated
+- **[NEW] アウシュヴィッツの後に詩は書けるか──アドルノの弁証法とセバルトの実践**
+  - wiki/topics/writing-theory/poetry-after-auschwitz.md — Adorno「詩を書くことは野蛮だ」の原典と自己修正の軌跡＋Sebald『Austerlitz』が「野蛮」を実践しつつ超えた方法を論じる。文化と野蛮の弁証法、トラウマ後の表現の倫理。
+
+- [2026-06-09] compile | 2 sources → 1 new article, 0 updated
+- **[NEW] トラウマ・書くこと・治療──オデュッセイアから心理療法へ**
+  - wiki/topics/writing-theory/trauma-writing-therapy.md — オデュッセイアの無力感・集合的トラウマと、心理治療が創作実践に与える影響を統合。「治療が書くことを変えるか」という問いを軸に、トラウマ後の表現と回復のプロセスを考察。
+
+- [2026-06-09] compile | 3 sources → 1 new article, 0 updated
+- **[NEW] モンテーニュのソクラテス像──デフォルメとアナクロニズムの哲学**
+  - wiki/topics/writing-theory/montaigne-socrates.md — 大西論文（デフォルメとアナクロニズム）＋納富論文（ソクラテス像の変遷）＋ブログ（懐疑主義の近代的遺産）の3ソースを統合。「ソクラテス」を軸にしたモンテーニュ哲学の全体像。
 
 - [2026-06-08] compile | 3 sources → 1 new article, 1 updated
 - **[NEW] モンテーニュの身体と老化──エッセイに刻まれた身体化された移行**
@@ -44,6 +73,11 @@ Last lint: 2026-06-08
 
 | Date | Action | Article |
 |------|--------|---------|
+| 2026-07-05 | update | [モンテーニュ『エセー』──自分を知ることと書くことの始まり](topics/writing-theory/montaigne-essays.md) |
+| 2026-07-05 | create | [未完成であることの美学──non-finitoから著作権法まで](topics/writing-theory/unfinished-creative-work.md) |
+| 2026-07-05 | update | [ギャル文化の現在地──平成ギャルから令和ギャルマインドへ](topics/materials/gyaru-culture-current.md) |
+| 2026-07-05 | update | [「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから](topics/writing-theory/a-shi-first-person-approach.md) |
+| 2026-07-05 | create | [「あーし」の語源──「わたし」が崩れ落ちた先にあった言葉](topics/materials/a-shi-etymology.md) |
 | 2026-06-06 | create | [「あーし」という一人称と他者へのアプローチ――鹿間羊市のエッセイから](topics/writing-theory/a-shi-first-person-approach.md) |
 | 2026-06-06 | compile | [ナン・シェパード『生きた山』──知識は謎を深め、山は生きている](topics/books/nan-shepherd-the-living-mountain.md) — 2ソースを統合。知識が謎を深めるという逆説、山を一つの生命体として描いた自然文学の傑作。 |
 | 2026-06-05 | compile | [Perspective Taking in Writing](topics/writing-theory/perspective-taking-writing.md) — 2ソースを統合。議論は「勝つ」ことではなく「理解すること」。フィクションライティングが共感を育む。 |

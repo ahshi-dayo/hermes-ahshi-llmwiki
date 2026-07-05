@@ -1,8 +1,12 @@
 ---
-title: "Hermes Agent — Web Search & Extract 検索バックエンド選定ガイド"
+title: "Web Search & Extract 検索バックエンド選定ガイド"
 date: 2026-05-31
-tags: [hermes-agent, web-search, web-extract, firecrawl, searxng, tavily, exa, ddgs, cron, tools]
-summary: "Hermes AgentのWeb検索・抽出機能の解説。web_searchとweb_extractの使い方、バックエンド（Firecrawl, SearXNG, Brave, DDGS, Tavily, Exa等）の比較表と設定方法。cronジョブの検索手段選定用リファレンス。"
+updated: 2026-05-31
+tags: [hermes-agent, web-search, web-extract, search-backend, ddgs, bing, serper, firecrawl, jina, tavily]
+confidence: high
+summary: "Hermes Agentの`web_search`・`web_extract`バックエンド選定ガイド。各バックエンド（DuckDuckGo/Bing/Serper/Tavily 等）の特徴、料金、制限事項を比較。DDGSレート制限の回避方法と代替案。"
+sources:
+  - "https://hermes-agent.nousresearch.com/docs/user-guide/features/web-and-search"
 ---
 
 # Hermes Agent — Web Search & Extract 検索バックエンド選定ガイド

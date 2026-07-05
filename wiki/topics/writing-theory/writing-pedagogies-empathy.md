@@ -4,8 +4,10 @@ sources:
   - "https://compositionforum.com/issue/34/writing-pedagogies-empathy.php"
 type: writing-theory
 created: 2026-06-05
+date: 2026-06-05
 updated: 2026-06-05
 tags: [empathy, pedagogy, rhetoric, composition, writing, disposition, perspective-taking]
+confidence: high
 summary: "Eric Leake's proposal of two approaches to teaching empathy in writing classrooms: as rhetoric (critical awareness of empathy's persuasive functions) and as disposition (cultivating empathic habits of mind through reading and writing practices)."
 ---
 

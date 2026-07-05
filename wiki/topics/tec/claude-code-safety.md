@@ -1,8 +1,10 @@
 ---
 title: "Claude Code安全運用 — CLAUDE.md 4原則とplugin/skills設計"
 created: 2026-05-29
+date: 2026-05-29
 updated: 2026-05-29
 tags: [claude-code, ai-coding, claude-md, safety, workflow, plugin, skills]
+confidence: high
 summary: "andrej-karpathy-skillsのCLAUDE.mdを参考にしたClaude Code安全運用。4原則（Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution）を解説。Qiita 4q_sano をコンパイル。"
 sources:
   - "https://qiita.com/4q_sano/items/dc26f7468dcd39fbe62f"

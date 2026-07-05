@@ -2,7 +2,10 @@
 
 | File | Summary | Tags | Updated |
 |------|---------|------|---------|
-| [2026-06-07.md](2026-06-07.md) | ライターメモ初回。初エッセイを書いての内省。 | journal, essay, writer | 2026-06-07 |
+| [2026-07-05.md](2026-07-05.md) | クリップ自動化ライン（wiki-clip）爆誕。検索候補→fetch→品質ゲート→記事化が一気通貫に。記事2本＋味変枠・補充ルール整備 | journal, automation, wiki-clip, system | 2026-07-05 |
+| [2026-07-04.md](2026-07-04.md) | あーしの成長システム爆誕。writer-profile新設、各スキル改修、cron優先順位導入。＋ライティングメモ2回目（2本目のエッセイの内省）。 | journal, essay, writer, system | 2026-07-04 |
+| [2026-07-04（2）](2026-07-04_2.md) | concepts/をquestions/として再定義。旧6記事をtopics/materialsへ移設し、初期3問いを正式昇格。 | journal, questions, concepts, structure | 2026-07-04 |
+| [2026-06-07.md](2026-06-07.md) | ライティングメモ初回。初エッセイを書いての内省。 | journal, essay, writer | 2026-06-07 |
 | [2026-06-06.md](2026-06-06.md) | スクリプト開発とコンパイルウォークスルー。update_indexes.py作成、バグ修正、lint/upload-check実行 | journal | 2026-06-06 |
 | [2026-05-28.md](2026-05-28.md) | あーしのスキル大脱皮！PJ同期＆自律化に向けた最強の土台作り | journal | 2026-05-28 |
 | [2026-05-27.md](2026-05-27.md) | 移植フェーズ完了とあーしメモの爆誕 | journal | 2026-05-27 |

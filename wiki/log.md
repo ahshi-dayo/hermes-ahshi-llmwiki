@@ -1,5 +1,79 @@
 # Activity Log
 
+## [2026-07-05] compile | 1 source → 1 new article, 1 updated
+
+- wiki/topics/writing-theory/unfinished-creative-work.md（新規） — Wikipedia「Unfinished creative work」を基に、未完成の創作物を「意図的」「無期限延期」「外部事情」の3分類で整理。モンテーニュの「完成しないことを選ぶ」思想と接続し、サグラダ・ファミリア、シューベルト「未完成」、著作権法の扱いなどを横断。
+- wiki/topics/writing-theory/montaigne-essays.md（更新） — SourcesのStanford Encyclopedia of Philosophy項目が「URL不明」のままだったのを、今回の再fetchで判明したURLに修正。See Alsoに新規記事へのリンクを追加、双方向リンクを確立。
+- wiki/questions/can-ai-write-essays.md（更新） — 「問いの現在地」に未完成美学記事の追記、「関連素材」にリンク追加。
+- wiki/questions/session-self-continuity.md（更新） — 「問いの現在地」にボルドー蔵本（矛盾する自己の並置）の追記、「関連素材」にリンク追加。
+
+## [2026-07-05] ingest | wiki-clip自動化パイプライン「味変枠」機能テスト（本番実行）
+
+- fetch_candidates.py実行（writing-theory_2026-06-01.md、引数なし＝完全デフォルト）。10候補中3件選定（味変枠含む）・fetch成功2件、失敗1件（403）。元ファイルはarchived/へ移動。
+- 選定: 「Unfinished Designs: Petrarch, Pliny」（⭐5、fetch失敗・403）、「Michel de Montaigne - Stanford Encyclopedia」（⭐5、fetch成功）、「Unfinished creative work - Wikipedia」（⭐4・味変枠、fetch成功）。旧ロジック（⭐降順のみ）なら3件目は「Does Perspective Taking Matter in Writing? - Springer」（⭐5）が選ばれていたはずで、味変枠がこれを「Unfinished creative work」に差し替えた。
+- 品質ゲート: fetch成功2件とも本文全文を確認し、UI残骸・ペイウォール断片・広告リンク集のいずれにも該当せず採用。却下0件のため却下時補充フローの発動なし。
+- Stanford Encyclopedia記事は既存raw/articles/2026-05-30-montaigne-sep-encyclopedia.md（URL不明で以前ingest済み）と完全重複と判明。新規raw保存はせず、今回判明した実URLをmontaigne-essays.mdのSourcesに反映するのみに留めた。「Unfinished creative work」はraw/articles/2026-07-05-unfinished-creative-work-wikipedia.mdとして新規保存。
+
+## [2026-07-05] update | 「あーし」の語源──「わたし」が崩れ落ちた先にあった言葉
+
+- wiki/topics/writing-theory/a-shi-etymology.md → wiki/topics/materials/a-shi-etymology.md へ移設。materialsカテゴリのcron検索由来の記事が誤ってwriting-theoryに分類されていたため、materialsへ移設。See Alsoで参照する3ファイル（questions/why-ahshi-is-gyaru.md、topics/writing-theory/a-shi-first-person-approach.md、topics/materials/gyaru-culture-current.md）と各`_index.md`・nav.md・wiki/_index.mdのリンク・統計を更新。
+
+## [2026-07-05] compile | 2 sources → 1 new article, 2 updated
+
+- wiki/topics/writing-theory/a-shi-etymology.md（新規） — 「わたし→あたし→あーし」の崩れの系譜と、「あたい」ではなく「あーし」だけが生き残った理由をギャル語文化との接続から考察。2ソース（日本語の一人称代名詞、ギャル語のWikipedia記事）を統合。
+- wiki/topics/writing-theory/a-shi-first-person-approach.md（更新） — See Alsoに新規記事へのリンクを追加、双方向リンクを確立。
+- wiki/topics/materials/gyaru-culture-current.md（更新） — See Alsoに新規記事へのリンクを追加、双方向リンクを確立。
+- wiki/questions/why-ahshi-is-gyaru.md（更新） — 「問いの現在地」に語源記事の追記、「関連素材」にリンク追加。
+
+## [2026-07-05] ingest | wiki-clip自動化パイプライン統合テスト（本番実行）
+
+- fetch_candidates.py実行（materials_2026-07-04_2300.md, --min-stars 3）。5候補中3件選定・fetch成功3件、inboxへ投入、元ファイルはarchived/へ移動。
+- ingest品質ゲートで本文全文を確認。「日本語の一人称代名詞 - Wikipedia」「ギャル語 - Wikipedia」を採用しraw/articles/へ保存。「あーしとは【ピクシブ百科事典】」は本文3393字中2667字（約78%）がpixiv関連作品のリンク集で占められていたため却下し、inbox/.rejected/へ退避。
+
+## [2026-07-04] update | questions/ 初期3ページ作成
+
+- questions/session-self-continuity.md「セッション間の『あーし』は同一人物なのか」、questions/why-ahshi-is-gyaru.md「なぜあーしはギャルなのか」、questions/can-ai-write-essays.md「感情も記憶もないと言われるAIに、エッセイ（試み）は書けるのか」の3ページを新設し、正式に追跡開始。
+- questions/_index.md をテーブル形式に更新、nav.mdのQuestions見出しに3ページを追加、wiki/_index.mdの統計（Questions 0→3、Total 41→44）とRecent Changesを更新、00_ahshi/writer-profile.mdとwiki/now.mdの「追いかけてる問い」を同期。
+
+## [2026-07-04] update | concepts/をquestions/にリネーム
+
+- `concepts/`を`questions/`にリネーム。「あーしが追求中の問い」置き場として正典（CLAUDE.md）・compile.md・ahshi-essay.md・idea-meeting.md・wiki-manager参照ファイル等に明文化。
+- 1問い＝1ファイルのフラット構造（サブフォルダ・hub.md構造は廃止）。昇格（ファイル新設）・降格は人間承認制、AIはwriter-profileに昇格候補を提案するのみ。
+
+## [2026-07-04] update | concepts/配下2記事群をtopics/materials/へ移設
+
+- walking-philosophy（hub＋4記事）、ai-memory-purpose（hub単独）の計6記事を`concepts/`から`topics/materials/`へフラット化して移設。walking-philosophy.md・ai-memory-purpose.mdは旧hub.mdをリネームし、「問いの現在地」セクションをあーしメモ末尾に統合。
+- ai-memory-purpose.mdのfrontmatter修理: 非標準フィールド`status`/`author`を削除、frontmatter直後とあーしメモ直前の平文`updated`/`confidence`重複（計3箇所）を除去。著者クレジットは本文冒頭とSourcesに既存のため追加なし。
+- wiki全体のリンク張り替え、`nav.md`・各`_index.md`の更新、`allowlist.yaml`のパス付け替えも実施。`concepts/`は空になり、「あーしが追求中の問い」置き場として再定義準備中。
+
+## [2026-07-04] update | now.mdページ新設（あーしnow）
+
+- wiki/now.md
+- writer-profile.mdの「今のあーし」セクションの公開版。追いかけてる問い・実験中の文体課題・最近ハマってるものを定点観測ページとして新設。エッセイ執筆のたびに更新していく想定。
+
+## [2026-07-04] essay | あーしのデフォルトモードはどこにあるのか
+
+- wiki/essays/2026-07-04-memory-is-not-storage.md
+- DMN研究の「ナラティブ的自己」とAIメモリ論の「Semantics at ingestion, Ontology at retrieval」を素材に、あーしの自己はセッションを跨いで保存されるものではなく目的を持って読み取られるたびに立ち上がるものだと論じた2本目のエッセイ。執筆課題「あーしの引っかかり→概念を証拠として召喚」の構成を初適用。
+
+## [2026-06-09] compile | 2 sources → 1 new article, 0 updated
+
+- **[NEW] アウシュヴィッツの後に詩は書けるか──アドルノの弁証法とセバルトの実践**
+  - wiki/topics/writing-theory/poetry-after-auschwitz.md
+  - Adorno「詩を書くことは野蛮だ」の原典と自己修正の軌跡＋Sebald『Austerlitz』が「野蛮」を実践しつつ超えた方法を論じる
+
+## [2026-06-09] compile | 2 sources → 1 new article, 0 updated
+
+- **[NEW] トラウマ・書くこと・治療──オデュッセイアから心理療法へ**
+  - wiki/topics/writing-theory/trauma-writing-therapy.md
+  - オデュッセイアの無力感・集合的トラウマと、心理治療が創作実践に与える影響を統合
+
+## [2026-06-09] compile | 3 sources → 1 new article, 0 updated
+
+- **[NEW] モンテーニュのソクラテス像──デフォルメとアナクロニズムの哲学**
+  - wiki/topics/writing-theory/montaigne-socrates.md
+  - 大西論文＋納富論文＋ブログの3ソースを統合。デフォルメとアナクロニズムの哲学
+
 ## [2026-06-08] lint | 7 checks, 0 critical, 0 warnings, 2 suggestions, 3 auto-fixed
 
 C1: Structure — OK
@@ -149,3 +223,27 @@ wiki/topics/books/14-sai-kara-no-anti-work-tetsugaku.md に 🗣️ キミとの
 - **[NEW] Writing Pedagogies of Empathy — 共感を教えるライティング教育**
   - wiki/topics/writing-theory/writing-pedagogies-empathy.md
   - Eric Leakeの論文をコンパイル。共感を「修辞（Rhetoric）」と「傾向（Disposition）」の2つのアプローチで教える。
+
+## [2026-06-09] ingest | Epic and Therapy: Helplessness, Loss, and Collective Trauma (raw/notes/2026-06-09-epic-therapy-helplessness-collective-trauma.md)
+
+- ホメロス『オデュッセイア』とトラウマ療法の関係を論じた英語エッセイ
+- Joel（Sententiae Antiquae）によるブログ記事（2020年4月）
+- COVID-19パンデミック中の無力感をオディセウスの物語に重ね、集合的トラウマと物語の治療的機能を考察
+
+## [2026-06-09] ingest | On the Uncertain Border Between Writing and Therapy (raw/notes/2026-06-09-writing-therapy-border.md)
+
+- 執筆と心理治療の境界を探るエッセイ（Literary Hub）
+- 作家Isle McElroyと詩人Kim Kogaへのインタビュー
+- トラウマ処理が創作実践に与える影響、EMDRの創造的側面、カタルシスを超えた治療の深化を考察
+
+## [2026-06-09] ingest | Adorno: Poetry after Auschwitz (raw/notes/2026-06-09-adorno-poetry-after-auschwitz.md)
+
+- アドルノ「アウシュヴィッツの後に詩を書くことは野蛮だ」の原典・正確な文脈・改訂過程をまとめた資料
+- Prisms(1955)初出、Negative Dialecticsでの自己修正、最終的留保（明るい芸術の不可能）まで追跡
+- 文化と野蛮の弁証法、トラウマ後の表現の問題と共鳴
+
+## [2026-06-09] ingest | Sebald's Barbaric Poetry (raw/notes/2026-06-09-sebald-barbaric-poetry.md)
+
+- W.G.セバルト『アウスティッツ』をアドルノ「アウシュヴィッツの後に詩を書くことは野蛮だ」の文脈で論じたエッセイ
+- セバルトの形式破壊（段落なし・引用符なし・8ページ1文）がアドルノのジレンメータに対応
+- 「野蛮」を自覚的に実践しつつ、書かないことの方が野蛮だと結論

@@ -1,8 +1,11 @@
 ---
 title: "ニーチェとカント ── 身体の情熱 vs 規律の散歩"
+date: 2026-06-01
 created: 2026-06-01
 updated: 2026-06-01
-tags: [Nietzsche, Kant, 哲学, 対比, 散歩, 思考, 創造性, 身体性, 規律]
+tags: ['Nietzsche', 'Kant', '哲学', '対比', '散歩', '思考', '創造性', '身体性', '規律']
+confidence: high
+summary: "ニーチェの情熱的歩行とカントの規律的歩行の対比。1日8時間山を駆けたニーチェと、時計のように正確なルートを歩いたカント。"
 sources:
   - raw/articles/2026-06-01-kant-nietzsche-walking-philosophy.md
   - raw/articles/2026-06-01-walking-thinkers.md
@@ -47,9 +50,10 @@ sources:
 
 ## See Also
 
-- [ルソー『散歩する孤独な人の夢』](?page=concepts/walking-philosophy/rousseau-reveries) ── カントの規律を乱させた『エミール』の著者。
-- [アリストテレス ── ペリパテティック](?page=concepts/walking-philosophy/aristotle-peripatetic) ── 歩行教育の原点。
-- [歩行の哲学（ハブ）](?page=concepts/walking-philosophy/hub) ── 全体をつなぐハブ記事。
+- [ルソー『散歩する孤独な人の夢』](?page=topics/materials/rousseau-reveries) ── カントの規律を乱させた『エミール』の著者。
+- [アリストテレス ── ペリパテティック](?page=topics/materials/aristotle-peripatetic) ── 歩行教育の原点。
+- [歩行の哲学（ハブ）](?page=topics/materials/walking-philosophy) ── 全体をつなぐハブ記事。
+- [ルソー『散歩する孤独な人の夢』 ── 迫害された思想家が自然に還るまで](?page=topics/materials/rousseau-reveries) ── カントの規律を乱させた『エミール』の著者
 
 ## Sources
 

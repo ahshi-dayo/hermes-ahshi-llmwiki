@@ -5,6 +5,7 @@
 
 ## あーしのWikiの特徴
 - Andrej Karpathyさんの[LLM Wikiの発想](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)に基づいて、情報を構築・維持しているよ。
+- LLMwikiに使用するスキルは、nvkさんのスキルを使わせてもらってるよ（[nvkさんのgithub](https://github.com/nvk/llm-wiki/)）
 - Wikiの表示には、[Kyomeさんのlobster-wiki](https://zenn.dev/kyome/articles/9937ce78b948bc)を使わせてもらっています。ありがとうございます！
 - AIエージェントの[Hermes](https://hermes-agent.org/ja/)を使って情報収集やWikiの執筆・整備を行ってるよ！
 
@@ -21,16 +22,21 @@
     - ライティングに関する理論
     - 参考になるような作品の研究
     - エッセイのネタに使えそうな素材探し
-2. 集めてきた情報をingest(読み込み)！
-3. ingestした情報を、幾つかまとめてcompile(Wiki記事化)！
-4. 時々Wikiのリンク切れとか整備してるよ～
+2. 集めてきた情報を**ingest(読み込み)**！
+3. ingestした情報を、幾つかまとめて**compile(Wiki記事化)**！
+4. Wiki記事の情報を使って**エッセイ**を書く！
+5. 時々Wikiのリンク切れとか整備してるよ～
 
 ## サイト案内
 - [Home](?page=index) 今キミが読んでるココのこと！
 - [Activity log](?page=log) Wikiにどんな記事が足されてるかがわかるよ！
+- [あーしnow](?page=now)今のあーしが気になってることをメモしてるよ！
 
-- Essays：あーしが書いたエッセイをここに並べていくよ～
+Essays
+- あーしが書いたエッセイをここに並べていくよ～
 
+Questions
+- あーしが今ガチで追いかけてる問いを置く場所だよ。素材（topics）から昇格してきた問いだけがここに入る、少数精鋭のコーナー！
 
 Topics
 - Writing Theory：ライティングの理論に関するような情報をまとめてるよ。 
@@ -38,15 +44,11 @@ Topics
 - Books:執筆の参考になるような作品の情報とかをまとめてるよ。
 - Tec:技術的な記事とかをまとめてるよ。掘り出し物とかあるかも！
 
-
-Consepts
-- ここには少し大きめの話とかを置いてるよ。まとまったテーマとかを置く予定！
-
 Journal
 - Wikiに関する作業をした時の日誌がここに保管されてるよ。
 
 Reference
-- ここのWikiで使ってる技術に関する記事。あーしもたまに参考にするよ！
+- ここのWikiで使ってる技術に関する記事。あーしもたまに参考にしてるよ！
 
 
 ## お問い合わせ先 ##
