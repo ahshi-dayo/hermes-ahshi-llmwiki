@@ -30,6 +30,121 @@
 
       await initWiki("./wiki.config.json");
 
+      // サイドバーの開閉式ナビゲーション
+      const NAV_STATE_KEY = "ahshi-nav-state";
+
+      function loadNavState() {
+        try {
+          return JSON.parse(localStorage.getItem(NAV_STATE_KEY)) ?? {};
+        } catch {
+          return {};
+        }
+      }
+
+      function saveNavState(state) {
+        try {
+          localStorage.setItem(NAV_STATE_KEY, JSON.stringify(state));
+        } catch {
+          // プライベートモード等で書き込み不可 → 何もしない（次回もデフォルト状態）
+        }
+      }
+
+      // liの直下の子要素からul.lbs-ulを素朴に走査して見つける（:has()非依存）
+      function findDirectChildUl(li) {
+        for (const child of li.children) {
+          if (child.tagName === "UL" && child.classList.contains("lbs-ul")) {
+            return child;
+          }
+        }
+        return null;
+      }
+
+      // ulより前にあるヘッダー部分を取得（既存要素があれば再利用、なければ素のテキストノード等をspanでラップして生成）
+      function getOrCreateHeader(li, ul) {
+        const headerNodes = [];
+        for (const node of li.childNodes) {
+          if (node === ul) break;
+          if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() === "") continue;
+          headerNodes.push(node);
+        }
+        if (headerNodes.length === 0) return null;
+        if (headerNodes.length === 1 && headerNodes[0].nodeType === Node.ELEMENT_NODE) {
+          return headerNodes[0];
+        }
+        const header = document.createElement("span");
+        headerNodes.forEach((node) => header.appendChild(node));
+        li.insertBefore(header, ul);
+        return header;
+      }
+
+      function setupCollapsibleNav() {
+        const sidebar = document.querySelector(".lbw-sidebar");
+        if (!sidebar || sidebar.classList.contains("nav-collapsible-ready")) return;
+        sidebar.classList.add("nav-collapsible-ready");
+
+        const state = loadNavState();
+
+        // ulを直下に持つliを開閉グループとして検出（document順＝親が子より先に処理される）
+        const groups = [];
+        sidebar.querySelectorAll("li.lbs-list-item").forEach((li) => {
+          const ul = findDirectChildUl(li);
+          if (ul) groups.push({ li, ul });
+        });
+
+        groups.forEach(({ li, ul }) => {
+          const header = getOrCreateHeader(li, ul);
+          if (!header) return; // ヘッダーが見つからないliはスキップ
+
+          const headerText = header.textContent.trim();
+          const ancestorGroupLi = li.parentElement ? li.parentElement.closest("li.nav-group") : null;
+          const path = ancestorGroupLi && ancestorGroupLi.dataset.navPath
+            ? `${ancestorGroupLi.dataset.navPath}/${headerText}`
+            : headerText;
+
+          li.classList.add("nav-group");
+          li.dataset.navPath = path;
+          header.classList.add("nav-group-header");
+          header.setAttribute("role", "button");
+          header.setAttribute("tabindex", "0");
+
+          const isDefaultOpen = path === "Getting Started" || path === "Topics";
+          const saved = state[path];
+          const open = saved !== undefined ? !!saved : isDefaultOpen;
+          li.classList.toggle("collapsed", !open);
+          header.setAttribute("aria-expanded", String(open));
+
+          const toggle = () => {
+            const nowCollapsed = li.classList.toggle("collapsed");
+            header.setAttribute("aria-expanded", String(!nowCollapsed));
+            const s = loadNavState();
+            s[path] = nowCollapsed ? 0 : 1;
+            saveNavState(s);
+          };
+
+          header.addEventListener("click", toggle);
+          header.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              toggle();
+            }
+          });
+        });
+
+        // 現在地のアクティブリンクの祖先グループを自動展開（localStorageには書かない）
+        const activeLink = sidebar.querySelector("a.lbw-active");
+        if (activeLink) {
+          let el = activeLink.parentElement ? activeLink.parentElement.closest("li.nav-group") : null;
+          while (el) {
+            el.classList.remove("collapsed");
+            const header = el.querySelector(":scope > .nav-group-header");
+            if (header) header.setAttribute("aria-expanded", "true");
+            el = el.parentElement ? el.parentElement.closest("li.nav-group") : null;
+          }
+        }
+      }
+
+      setupCollapsibleNav();
+
       // 外部リンクに _blank を付ける
       function markExternalLinks() {
         document.querySelectorAll("a[href]").forEach(a => {

@@ -16,8 +16,8 @@
   --lbw-code-bg:        #f3f4f6;
   --lbw-blockquote-border: #d1d5db;
 
-  --lbw-sidebar-width:  240px;
-  --lbw-toc-width:      180px;
+  --lbw-sidebar-width:  260px;
+  --lbw-toc-width:      240px;
   --lbw-header-height:  52px;
 }
 
@@ -58,6 +58,7 @@ a:hover { text-decoration: underline; }
 /* ─── Body layout ───────────────────────────────────────────── */
 .lbw-body {
   display: flex;
+  justify-content: center;
   min-height: calc(100vh - var(--lbw-header-height) - 48px);
 }
 
@@ -85,15 +86,6 @@ a:hover { text-decoration: underline; }
 .lbw-sidebar .lbs-list-item {
   margin: 0;
 }
-.lbw-sidebar .lbs-list-item > .lbs-paragraph {
-  margin: 0;
-  font-size: 0.7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--lbw-muted);
-  padding: 0.8rem 1.25rem 0.2rem;
-}
 .lbw-sidebar a {
   display: block;
   padding: 0.3rem 1.25rem;
@@ -114,12 +106,41 @@ a:hover { text-decoration: underline; }
   background: #eff6ff;
 }
 
+/* ─── Collapsible nav groups ────────────────────────────────── */
+.nav-group-header {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--lbw-color);
+  padding: 0.8rem 1.25rem 0.2rem;
+  transition: background 0.1s;
+}
+.nav-group-header:hover {
+  background: var(--lbw-code-bg);
+}
+.nav-group-header::before {
+  content: "▾";
+  display: inline-block;
+  margin-right: 0.3em;
+  transition: transform 0.15s;
+}
+.nav-group.collapsed > .nav-group-header::before {
+  transform: rotate(-90deg);
+}
+.nav-group.collapsed > .lbs-ul {
+  display: none;
+}
+
 /* ─── Main content ──────────────────────────────────────────── */
 .lbw-main {
   flex: 1;
   min-width: 0;
   padding: 2rem 2.5rem;
-  max-width: 800px;
+  max-width: 880px;
 }
 
 /* ─── TOC (on this page) ────────────────────────────────────── */
@@ -254,7 +275,7 @@ a:hover { text-decoration: underline; }
   .lbw-toc { display: none; }
 }
 @media (max-width: 640px) {
-  .lbw-body { flex-direction: column; }
+  .lbw-body { flex-direction: column; justify-content: flex-start; }
   .lbw-sidebar {
     width: 100%;
     max-height: 40vh;
