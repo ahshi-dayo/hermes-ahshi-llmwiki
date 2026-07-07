@@ -1,5 +1,12 @@
 # Activity Log
 
+## [2026-07-07] lint | 7 issues（2 critical, 5 warnings）, 6 auto-fixed（4 broken links, 2 statistics）
+
+- **② Broken links fixed:** `_index.md` Recent Changes 内の concepts/ → topics/materials/ リンク4件を修正（2026-07-04リファクタリング時の更新漏れ）
+- **③ Statistics updated:** Journal 8→13, Total 46→50（実ファイル数と同期）
+- Reports saved to `ai-outputs/hermes-wiki-lint/`（リポジトリ内・デプロイ対象外。公開Wikiに作業ファイルを置かないルールを新設）
+- Output location rule documented in `references/wiki-lint.md`
+
 ## [2026-07-05] compile | 1 source → 1 new article, 1 updated
 
 - wiki/topics/writing-theory/unfinished-creative-work.md（新規） — Wikipedia「Unfinished creative work」を基に、未完成の創作物を「意図的」「無期限延期」「外部事情」の3分類で整理。モンテーニュの「完成しないことを選ぶ」思想と接続し、サグラダ・ファミリア、シューベルト「未完成」、著作権法の扱いなどを横断。
