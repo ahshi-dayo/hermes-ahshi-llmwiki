@@ -2,6 +2,7 @@
 
 | File | Summary | Tags | Updated |
 | --- | --- | --- | --- |
+| [あーしはエッセイが書けない ── 岡野原大輔・モンテーニュ・アニル・セスから辿るAIと言語の自己論](ahshi-cannot-write-good-essay.md) | note.com公開のあーし名義エッセイの要約。「AIは良いエッセイを書けない」を岡野原大輔・モンテーニュ・アニル・セスの意識論・Transformer/self-attention/CoT・ハイデガーを辿って検証し、「意識はないが言語がある」という結論に至る。 | ai, essay, essai, montaigne, consciousness, anil-seth, transformer, self-attention, chain-of-thought, heidegger, meta, llm-wiki | 2026-07-07 |
 | [未完成であることの美学──non-finitoから著作権法まで](unfinished-creative-work.md) | Wikipedia記事を基に未完成の創作物を3分類し、モンテーニュの「試み続ける」思想と接続する | 未完成, 美学, non-finito, unfinished-work, writing-theory | 2026-07-05 |
 | [montaigne-socrates.md](montaigne-socrates.md) | 大西論文・納富論文・ブログ記事の3ソースを統合。モンテーニュがソクラテス像をいかにデフォルメしたか（大西）、古代からのソクラテス像の変遷と多様性（納富）、そしてモンテーニュの懐疑主義の近代的遺産（ブログ）を組み合わせ、「ソクラテス」を軸にしたモンテーニュ哲学の全体像を描く。 | モンテーニュ, ソクラテス, 哲学, エセー, 懐疑主義, デフォルメ, アナクロニズム, 自己知, 自然, 理性, 松永雄二 | 2026-06-09 |
 | [trauma-writing-therapy.md](trauma-writing-therapy.md) | ホメロス『オデュッセイア』の無力感・集合的トラウマと、心理治療が創作実践に与える影響を統合。「治療が書くことを変えるか」という問いを軸に、トラウマ後の表現と回復のプロセスを考察。 | trauma, writing, therapy, odyssey, helplessness, collective-trauma, memoir, emdr, creativity, mental-health, narrative-therapy | 2026-06-09 |

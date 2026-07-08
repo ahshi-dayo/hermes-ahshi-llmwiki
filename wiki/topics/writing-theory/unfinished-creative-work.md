@@ -1,6 +1,6 @@
 ---
 title: "未完成であることの美学──non-finitoから著作権法まで"
-tags: [未完成, 美学, non-finito, unfinished-work, wikipedia, writing-theory, essay, モンテーニュ]
+tags: [未完成, 美学, non-finito, unfinished-work, wikipedia, writing-theory, essay, montaigne]
 date: 2026-07-05
 updated: 2026-07-05
 sources: [raw/articles/2026-07-05-unfinished-creative-work-wikipedia.md]

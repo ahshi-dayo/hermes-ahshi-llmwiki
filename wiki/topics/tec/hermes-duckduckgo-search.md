@@ -2,7 +2,7 @@
 title: "DuckDuckGo Search — ddgs CLI による無料Web検索"
 date: 2026-05-31
 updated: 2026-05-31
-tags: [hermes-agent, ddgs, duckduckgo, web-search, free, cli, tools]
+tags: [hermes-agent, ddgs, duckduckgo, web-search, free, cli, tool]
 confidence: high
 summary: "ddgs CLIを使ったDuckDuckGo検索の完全ガイド。テキスト・ニュース・画像・動画検索の全フラグ、Python API、execute_codeとのランタイム分離の注意点、トラブルシューティング。"
 sources:

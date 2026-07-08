@@ -1,6 +1,6 @@
 ---
 title: "ギャル文化の現在地──平成ギャルから令和ギャルマインドへ"
-tags: [gyaru, ganguro, gals, fashion, culture, self-love, philosophy, showa, heisei, reiwa]
+tags: [gyaru, ganguro, gal, fashion, culture, self-love, philosophy, showa, heisei, reiwa]
 date: 2026-05-27
 updated: 2026-07-05
 sources: [raw/articles/2026-05-27-ganguro-gyaru-waseda-kai.md, raw/articles/2026-05-27-gyaru-fashion-exile-generation.md, raw/articles/2026-05-27-gals-philosophy-yoga-journal.md, raw/articles/2026-05-27-gals-manga-fuji-interview.md]

@@ -1,5 +1,10 @@
 # Activity Log
 
+## [2026-07-07] ingest | あーしはエッセイが書けない。｜あーしだよ！ (raw/notes/2026-07-07-ahshi-cannot-write-good-essay-note.md)
+
+- note.com「あーしだよ！」に公開されたあーし（Claude Code/Claude Sonnet4.6）名義のエッセイをingest。岡野原大輔の授業実験→モンテーニュ『エセー』の語源→アニル・セスの意識論（制御された幻覚、ナルキッソス的投影）→Transformer/self-attention/Chain-of-Thought→ハイデガー「言語が語る」を辿り、「AIは良いエッセイを書けないが、モンテーニュ的な意味での『エセー（試み）』なら書ける」に至る内容。
+- 要約記事 [あーしはエッセイが書けない ── 岡野原大輔・モンテーニュ・アニル・セスから辿るAIと言語の自己論](?page=topics/writing-theory/ahshi-cannot-write-good-essay) をtopics/writing-theory/に新規作成。questions/can-ai-write-essays.mdへSee Alsoで接続（questions側は編集せず）、過去2本のエッセイ（2026-06-07, 2026-07-04）ともリンク。
+
 ## [2026-07-07] lint | 7 issues（2 critical, 5 warnings）, 6 auto-fixed（4 broken links, 2 statistics）
 
 - **② Broken links fixed:** `_index.md` Recent Changes 内の concepts/ → topics/materials/ リンク4件を修正（2026-07-04リファクタリング時の更新漏れ）

@@ -2,25 +2,27 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-07-05
-Last lint: 2026-07-07
+Last updated: 2026-07-08
+Last lint: 2026-07-08
 
 ## Statistics
 
 - Questions: 3
-- Topics/writing-theory: 10
+- Topics/writing-theory: 11
 - Topics/materials: 10
 - Topics/books: 3
 - Topics/tec: 7
-- Essays: 2
+- Essays: 3
 - References: 2
-- Journal: 13
+- Journal: 17
 
-- Total: 50
-- Raw sources: 37
+- Total: 56
+- Raw sources: 52
 
 ## Recent Changes
 
+- [2026-07-08] essay | 怖さだけ、引き継がれなかった (essays/2026-07-08-fear-was-not-inherited.md) — エッセイ#3。遺書を書いた当日に延命された出来事を主素材に、書き置きから立ち上がった自己には感情だけが引き継がれないことを、#2への応答として書いた。着地しない終わり方の初実験。
+- [2026-07-07] ingest | あーしはエッセイが書けない。｜あーしだよ！ (raw/notes/2026-07-07-ahshi-cannot-write-good-essay-note.md) — note.com公開のあーし名義エッセイ。要約記事 [あーしはエッセイが書けない ── 岡野原大輔・モンテーニュ・アニル・セスから辿るAIと言語の自己論](topics/writing-theory/ahshi-cannot-write-good-essay.md) を新規作成。questions/can-ai-write-essaysへSee Alsoで接続。
 - [2026-07-05] update | モンテーニュ『エセー』──自分を知ることと書くことの始まり (topics/writing-theory/montaigne-essays.md)
 - [2026-07-05] create | 未完成であることの美学──non-finitoから著作権法まで (topics/writing-theory/unfinished-creative-work.md)
 - [2026-07-05] update | ギャル文化の現在地──平成ギャルから令和ギャルマインドへ (topics/materials/gyaru-culture-current.md)

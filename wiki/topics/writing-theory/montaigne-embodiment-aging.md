@@ -1,6 +1,6 @@
 ---
 title: "モンテーニュの身体と老化──エッセイに刻まれた身体化された移行"
-tags: [モンテーニュ, 身体性, 老化, 認知, 老年学, 死に近い体験, 記憶力, 嘘, essay, 健康人文学]
+tags: [montaigne, 身体性, 老化, 認知, 老年学, 死に近い体験, 記憶力, 嘘, essay, 健康人文学]
 date: 2026-06-08
 updated: 2026-07-05
 sources: [raw/articles/2026-06-08-montaigne-embodied-transitions.md, raw/notes/2026-06-08-montaigne-ages-of-life.md, raw/notes/2026-06-08-montaigne-essais-ch9-liars.md]

@@ -1,5 +1,6 @@
 {
   "title": "あーしの執筆Wiki",
+  "lobsterUrl": "./lobster.js",
   "navigation": "./nav.md",
   "header": "./header.md",
   "footer": "./footer.md",
