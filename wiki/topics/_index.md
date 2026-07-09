@@ -2,16 +2,16 @@
 
 Topics 配下の記事インデックス。各カテゴリの詳細な Contents 表はサブディレクトリの `_index.md` を参照。
 
-## Writing Theory (11)
-- [writing-theory/_index.md](writing-theory/_index.md)
+## Writing Theory
+- [Writing Theory](?page=topics/writing-theory/_index)
 
-## Materials (10)
-- [materials/_index.md](materials/_index.md)
+## Materials
+- [Materials](?page=topics/materials/_index)
 
-## Books (3)
-- [books/_index.md](books/_index.md)
+## Books
+- [Books](?page=topics/books/_index)
 
-## Tec (7)
-- [tec/_index.md](tec/_index.md)
+## Tec
+- [Tec](?page=topics/tec/_index)
 
 Last updated: 2026-07-08

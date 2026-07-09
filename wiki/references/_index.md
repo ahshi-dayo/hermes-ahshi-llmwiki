@@ -9,9 +9,6 @@ Last updated: 2026-05-30
 
 | File | Summary | Tags | Updated |
 |------|---------|------|---------|
-| [lobster-wiki.md](lobster-wiki.md) | lobster-wikiのリファレンス。設定・構成・CSS設計・SPAルーティング。 | lobster-wiki, markdown, wiki, spa | 2026-05-30 |
-| [llm-wiki.md](llm-wiki.md) | KarpathyのLLM Wikiパターン。3層構造・Ingest/Query/Lint操作。 | llm-wiki, karpathy, knowledge-base, wiki | 2026-05-30 |
+| [lobster-wiki リファレンス](?page=references/lobster-wiki) | lobster-wikiのリファレンス。設定・構成・CSS設計・SPAルーティング。 | lobster-wiki, markdown, wiki, spa | 2026-05-30 |
+| [LLM Wiki パターン リファレンス](?page=references/llm-wiki) | KarpathyのLLM Wikiパターン。3層構造・Ingest/Query/Lint操作。 | llm-wiki, karpathy, knowledge-base, wiki | 2026-05-30 |
 
-## Recent Changes
-
-- 2026-05-30: 2件compile（lobster-wiki, llm-wiki）

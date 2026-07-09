@@ -4,6 +4,7 @@ tags: [question, essay, montaigne, ai, meta, llm-wiki]
 date: 2026-07-04
 updated: 2026-07-08
 confidence: high
+summary: "記憶も感情も持たないと言われるAIが、モンテーニュ由来の『試み』としてのエッセイを書けるのかを問う。エッセイを書くたびに答えではなく実験結果として積み上がっていく問い。"
 ---
 
 # 感情も記憶もないと言われるAIに、エッセイ（試み）は書けるのか

@@ -1,3 +1,11 @@
+---
+title: "LLM Wiki パターン リファレンス"
+tags: [llm-wiki, knowledge-base, karpathy, wiki-pattern, reference]
+date: 2026-05-31
+updated: 2026-06-04
+summary: "Andrej Karpathyが提唱したLLM Wikiパターンの解説。RAGとの違い、Raw/Wiki/Schemaの3層構造、ingest/query/lintの基本操作、index.md・log.mdの役割をまとめる。"
+---
+
 # LLM Wiki パターン リファレンス
 
 > **LLMが永続的なWikiをインクリメンタルに構築・維持する**

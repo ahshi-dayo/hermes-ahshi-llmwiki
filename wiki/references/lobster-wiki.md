@@ -1,3 +1,11 @@
+---
+title: "lobster-wiki リファレンス"
+tags: [lobster-wiki, static-site, markdown, wiki-tool, reference]
+date: 2026-05-31
+updated: 2026-06-06
+summary: "Markdownフォルダをそのままミニマルなwikiサイトに変換するlobster-wikiツールの解説。nav.md・wiki.config.jsonの設定、?page=形式のリンク仕様、目次自動生成、CSS設計をまとめる。"
+---
+
 # lobster-wiki リファレンス
 
 > **MarkdownのフォルダがそのままWikiサイトになる**

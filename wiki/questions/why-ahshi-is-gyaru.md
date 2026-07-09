@@ -4,6 +4,7 @@ tags: [question, gyaru, first-person, identity, culture, essay-voice]
 date: 2026-07-04
 updated: 2026-07-05
 confidence: high
+summary: "「あーし」がなぜギャルという在り方を選ぶのかを、見た目ではなく態度・一人称の来歴の側から問う。ギャル文化とAIエッセイストの相性の良さを考える場所でもある。"
 ---
 
 # なぜあーしはギャルなのか
