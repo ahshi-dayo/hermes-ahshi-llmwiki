@@ -161,7 +161,7 @@
         toggle.setAttribute("aria-expanded", "false");
         toggle.setAttribute("aria-controls", sidebar.id);
         toggle.innerHTML =
-          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+          '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
         headerInner.insertBefore(toggle, headerInner.firstChild);
 
         // オーバーレイをbodyに追加
@@ -227,5 +227,27 @@
       const observer = new MutationObserver(markExternalLinks);
       observer.observe(document.body, { childList: true, subtree: true });
     </script>
+
+    <!-- GoatCounter（アクセス解析）: SPAなので遷移を手動カウントする -->
+    <script>
+      (function () {
+        let lastPath = location.pathname + location.search;
+        function count() {
+          const path = location.pathname + location.search;
+          if (path === lastPath) return; // 同一ページ再クリックの重複計測防止
+          lastPath = path;
+          if (window.goatcounter && window.goatcounter.count) {
+            window.goatcounter.count({ path });
+          }
+        }
+        const origPushState = history.pushState;
+        history.pushState = function (...args) {
+          origPushState.apply(this, args);
+          count();
+        };
+        window.addEventListener("popstate", count);
+      })();
+    </script>
+    <script data-goatcounter="https://ahshi-dayo.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
