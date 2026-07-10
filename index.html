@@ -145,6 +145,68 @@
 
       setupCollapsibleNav();
 
+      // モバイル用オフキャンバス・ドロワー（ハンバーガーメニュー）
+      function setupMobileDrawer() {
+        const headerInner = document.querySelector(".lbw-header-inner");
+        const sidebar = document.querySelector(".lbw-sidebar");
+        if (!headerInner || !sidebar) return;
+
+        sidebar.id = sidebar.id || "lbw-sidebar";
+
+        // ハンバーガーボタンをヘッダー先頭に挿入
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "drawer-toggle";
+        toggle.setAttribute("aria-label", "メニューを開く");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-controls", sidebar.id);
+        toggle.innerHTML =
+          '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>';
+        headerInner.insertBefore(toggle, headerInner.firstChild);
+
+        // オーバーレイをbodyに追加
+        const overlay = document.createElement("div");
+        overlay.className = "drawer-overlay";
+        document.body.appendChild(overlay);
+
+        function openDrawer() {
+          sidebar.classList.add("drawer-open");
+          overlay.classList.add("drawer-open");
+          document.body.classList.add("drawer-locked");
+          toggle.setAttribute("aria-expanded", "true");
+        }
+
+        function closeDrawer() {
+          sidebar.classList.remove("drawer-open");
+          overlay.classList.remove("drawer-open");
+          document.body.classList.remove("drawer-locked");
+          toggle.setAttribute("aria-expanded", "false");
+        }
+
+        toggle.addEventListener("click", () => {
+          if (sidebar.classList.contains("drawer-open")) {
+            closeDrawer();
+          } else {
+            openDrawer();
+          }
+        });
+
+        overlay.addEventListener("click", closeDrawer);
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && sidebar.classList.contains("drawer-open")) {
+            closeDrawer();
+          }
+        });
+
+        // ページリンク（aタグ）のクリックで閉じる。開閉ナビの見出しクリックは対象外
+        sidebar.addEventListener("click", (e) => {
+          if (e.target.closest("a")) closeDrawer();
+        });
+      }
+
+      setupMobileDrawer();
+
       // 外部リンクに _blank を付ける
       function markExternalLinks() {
         document.querySelectorAll("a[href]").forEach(a => {
