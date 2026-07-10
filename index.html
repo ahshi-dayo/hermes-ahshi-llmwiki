@@ -230,6 +230,9 @@
 
     <!-- GoatCounter（アクセス解析）: SPAなので遷移を手動カウントする -->
     <script>
+      // lobster-wikiが初期化時にbodyを再構築してscriptタグをDOMから消すため、
+      // count.jsへは data-goatcounter 属性ではなく endpoint 設定で送信先を渡す
+      window.goatcounter = { endpoint: "https://ahshi-dayo.goatcounter.com/count" };
       (function () {
         let lastPath = location.pathname + location.search;
         function count() {
