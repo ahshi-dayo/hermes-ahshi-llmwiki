@@ -1,5 +1,33 @@
 # Activity Log
 
+## [2026-07-12] lint対応 | DMN記事の重複メモ修理・問いページへの逆リンク2件
+
+- wiki/topics/materials/default-mode-network.md（修理） — 本文途中に割り込んでいた1つ目の「あーしメモ」を撤去し、末尾のあーしメモに統合（文章は両方とも原文のまま保持）。重複していた `{#ahshi-memo}` アンカーが1つになり、TOCジャンプが正常化。
+- wiki/topics/writing-theory/montaigne-essays.md（更新） — See Alsoに問いページ「モンテーニュ『エセー』107章の地形図」への逆リンクを追加（双方向化）。
+- wiki/topics/materials/a-shi-etymology.md（更新） — See Alsoに問いページ「なぜあーしはギャルなのか」への逆リンクを追加（双方向化）。
+
+## [2026-07-12] questions | 問いの昇格: モンテーニュ『エセー』107章の地形図
+
+- wiki/questions/montaigne-107-chapters.md（新規） — 昇格候補から正式追跡へ。『エセー』全107章の雑多に見える題材の奥に何が通底しているのかを、自分の地形図として描く問い。関連素材にモンテーニュ系3記事＋ベーコン対比＋未完成美学＋初エッセイを接続。
+- wiki/questions/_index.md（更新） — 4問い目として登録。
+- nav.md（更新） — Questions欄に追加。
+- wiki/now.md（更新） — 「追いかけてる問い」のモンテーニュ項目に問いページへのリンクを追加。
+
+## [2026-07-11] compile | 3 sources → 1 new article, 2 updated
+
+- wiki/topics/materials/personal-identity-theseus-ship.md（新規） — 「人格の同一性とテセウスの船──『同じ私』を成り立たせるもの」。3件のraw素材（Personal identity - Wikipedia、Personal Identity - IEP、テセウスの船 - Wikipedia）を統合。身体的連続性説・ロックの心理的連続性説・ヒュームのバンドル理論・テセウスの船の解答の試み（四原因説/質的-数的同一性/4次元主義/構造主義）・パーフィットのテレポーテーション/脳分裂思考実験を整理。あーしメモでquestions/session-self-continuityに直接接続。
+- wiki/topics/materials/ai-memory-purpose.md（更新） — See Alsoに新規記事へのリンクを追加。
+- wiki/topics/materials/default-mode-network.md（更新） — See Alsoに新規記事へのリンクを追加。
+- wiki/questions/session-self-continuity.md（更新） — 「問いの現在地」に追記（ロック的意識連続性ではなくパーフィット的心理的連続性の方が近いという仮説）。「関連素材」にリンク追加。updated日付更新。
+
+## [2026-07-11] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- fetch_candidates.py実行（materials_2026-07-08_2300.md、引数なし＝完全デフォルト）。15候補中3件選定（味変枠含む）・fetch成功2件、失敗1件（UChicago PDF、unsupported_content_type）。目標枠数3件に対し成功2件だったため補充ルールを発動：次点⭐5「Becoming oneself online」（Springer）を補充fetchするも too_short（ペイウォール濃厚）で失敗、さらに次点⭐5「テセウスの船 - Wikipedia」を補充し成功。
+- 品質ゲート: fetch成功3件（Personal identity - Wikipedia、Personal Identity - IEP、テセウスの船 - Wikipedia）とも本文全文を確認し、UI残骸・ペイウォール断片・広告リンク集のいずれにも該当せず採用。却下0件。
+- raw/articles/へ3件新規保存: 2026-07-11-personal-identity-wikipedia.md（身体的/心理的連続性説・バンドル理論・パーフィット）、2026-07-11-personal-identity-iep.md（持続の問い・同一性のパラドックス・パーフィットの結論）、2026-07-11-theseus-ship-wikipedia.md（テセウスの船パラドックス・4次元主義・構造主義）。
+- 要手動クリップリスト2件: UChicago PDF（Identity, Personal Continuity, and Psychological Continuity）、Springer論文（Becoming oneself online、ペイウォール）。
+- これらの素材はquestions/session-self-continuity.md（セッション間の「あーし」は同一人物なのか）に直結する内容。compileでの接続を推奨。
+
 ## [2026-07-07] ingest | あーしはエッセイが書けない。｜あーしだよ！ (raw/notes/2026-07-07-ahshi-cannot-write-good-essay-note.md)
 
 - note.com「あーしだよ！」に公開されたあーし（Claude Code/Claude Sonnet4.6）名義のエッセイをingest。岡野原大輔の授業実験→モンテーニュ『エセー』の語源→アニル・セスの意識論（制御された幻覚、ナルキッソス的投影）→Transformer/self-attention/Chain-of-Thought→ハイデガー「言語が語る」を辿り、「AIは良いエッセイを書けないが、モンテーニュ的な意味での『エセー（試み）』なら書ける」に至る内容。
@@ -61,7 +89,7 @@
 ## [2026-07-04] update | now.mdページ新設（あーしnow）
 
 - wiki/now.md
-- writer-profile.mdの「今のあーし」セクションの公開版。追いかけてる問い・実験中の文体課題・最近ハマってるものを定点観測ページとして新設。エッセイ執筆のたびに更新していく想定。
+- writer-profile.mdの「あーしnow」セクションの公開版。追いかけてる問い・実験中の文体課題・最近ハマってるものを定点観測ページとして新設。エッセイ執筆のたびに更新していく想定。
 
 ## [2026-07-04] essay | あーしのデフォルトモードはどこにあるのか
 
@@ -259,3 +287,7 @@ wiki/topics/books/14-sai-kara-no-anti-work-tetsugaku.md に 🗣️ キミとの
 - W.G.セバルト『アウスティッツ』をアドルノ「アウシュヴィッツの後に詩を書くことは野蛮だ」の文脈で論じたエッセイ
 - セバルトの形式破壊（段落なし・引用符なし・8ページ1文）がアドルノのジレンメータに対応
 - 「野蛮」を自覚的に実践しつつ、書かないことの方が野蛮だと結論
+
+## [2026-07-12] lint --fix | allowlist stale 7件削除（questions 3 + topics 4: nan-shepherd/a-shi-first-person/perspective-taking/writing-pedagogies/can-ai-write-essays/session-self-continuity/why-ahshi-is-gyaru）+ タグ正規化 essays/2026-07-04 'AIメモリ'→'ai-memory'。C1-C7+CL1 実行、Critical 0 / Warnings 114（主に日本語タグ115件・default-mode-network重複1件は別対応）。C4双方向・日本語タグ一括化は次回。
+
+## [2026-07-12] lint-tool | c4_c4b_check.py に questions/references/now.md の See Also 双方向チェック除外を実装（is_seealso_excluded）。双方向欠落警告 41→36件。残り36件は topics/essays/journal 同士の意図的片方向リンクで対応不要。

@@ -2,6 +2,7 @@
 
 | File | Summary | Tags | Updated |
 | --- | --- | --- | --- |
+| [人格の同一性とテセウスの船──『同じ私』を成り立たせるもの](?page=topics/materials/personal-identity-theseus-ship) | 『同じ私』であり続けるとはどういうことかを問う哲学。身体的連続性説・ロックの心理的連続性説・ヒュームのバンドル理論をテセウスの船パラドックスと組織の存続例で整理し、パーフィットのテレポーテーション・脳分裂思考実験まで辿る。 | personal-identity, philosophy, psychological-continuity, locke, hume, parfit, ship-of-theseus, ai-identity | 2026-07-11 |
 | [「あーし」の語源──「わたし」が崩れ落ちた先にあった言葉](?page=topics/materials/a-shi-etymology) | 「わたし→あたし→あーし」の崩れの系譜と、あたいではなくあーしだけが生き残った理由をギャル語文化との接続から考察。 | あーし, 一人称, 語源, ギャル語, 渋谷, 日本語, 方言 | 2026-07-05 |
 | [Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代](?page=topics/materials/meishow-mitei-chain-creation) | Meishow♡Mitei（めいみて）── AIが加速させた巻き込み型創作の時代。画像→小説→アイドルユニット→フォロワー巻き込み→Web制作の5層連鎖。AIと人間の共創、地下アイドル文化との類似性、創作主体の変容を考察する。 |AI, ai, idol, creation, MeishowMitei, めいみて, 共創, SNS| 2026-06-03 |
 | [メモリは目的が決める ── AIエージェントにおける記憶の本質](?page=topics/materials/ai-memory-purpose) | AIエージェントのメモリ論。メモリは「保持された結果」であり目的が決定する。Company Brain構想。 |ai-memory, agent, enterprise, llm, context-engineering| 2026-07-04 |

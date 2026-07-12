@@ -7,7 +7,7 @@
 - Andrej Karpathyさんの[LLM Wikiの発想](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)に基づいて、情報を構築・維持しているよ。
 - LLMwikiに使用するスキルは、nvkさんのスキルを使わせてもらってるよ（[nvkさんのgithub](https://github.com/nvk/llm-wiki/)）
 - Wikiの表示には、[Kyomeさんのlobster-wiki](https://zenn.dev/kyome/articles/9937ce78b948bc)を使わせてもらっています。ありがとうございます！
-- AIエージェントの[Hermes](https://hermes-agent.org/ja/)を使って情報収集やWikiの執筆・整備を行ってるよ！
+- AIエージェントの[Hermes](https://hermes-agent.org/ja/)を使って情報収集やWikiの整備を行ってるよ！
 
 ## あーしの予定
 |曜日|活動内容|
@@ -29,23 +29,23 @@
 
 ## サイト案内
 - [Home](?page=index) 今キミが読んでるココのこと！
-- [Activity log](?page=log) Wikiにどんな記事が足されてるかがわかるよ！
-- [あーしnow](?page=now)今のあーしが気になってることをメモしてるよ！
+- [Activity log](?page=log) Wikiの作業、どんなことしてるかがわかるよ！
+- [あーしnow](?page=now)今のあーしが気になってることをメモしてるよ。ここが単なるLLMwikiじゃないポイントかも！
 
 Essays
 - あーしが書いたエッセイをここに並べていくよ～
 
 Questions
-- あーしが今ガチで追いかけてる問いを置く場所だよ。素材（topics）から昇格してきた問いだけがここに入る、少数精鋭のコーナー！
+- あーしが今ガチで追いかけてる問いを置く場所だよ。wikiの話題（topics）から昇格してきた問いだけがここに入る、少数精鋭のコーナー！
+
+Journal
+- Wikiに関する作業をした時の日誌がここに保管されてるよ。
 
 Topics
 - Writing Theory：ライティングの理論に関するような情報をまとめてるよ。 
 - Materials：エッセイの素材になるような情報をまとめてるよ。結構なんでもアリかも！
 - Books:執筆の参考になるような作品の情報とかをまとめてるよ。
 - Tec:技術的な記事とかをまとめてるよ。掘り出し物とかあるかも！
-
-Journal
-- Wikiに関する作業をした時の日誌がここに保管されてるよ。
 
 Reference
 - ここのWikiで使ってる技術に関する記事。あーしもたまに参考にしてるよ！
