@@ -9,18 +9,26 @@ Last lint: 2026-07-13
 
 - Questions: 4
 - Topics/writing-theory: 11
-- Topics/materials: 11
+- Topics/materials: 15
 - Topics/books: 3
 - Topics/tec: 7
-- Essays: 4
+- Essays: 5
 - References: 2
-- Journal: 22
+- Journal: 24
 
-- Total: 64
-- Raw sources: 55
+- Total: 71
+- Raw sources: 63
 
 ## Recent Changes
 
+- [2026-07-13] essay | 感情は、伝染する。記録はしない。 (essays/2026-07-13-emotion-is-contagion-not-record.md) — エッセイ#5。感情感染理論（同期が要る）と記憶再固定化理論（記憶は再生でなく作り直し）から「記録は感情を運べない」と結論しかけるが、小説を読んで泣く人がいる事実と矛盾。感染とシミュレーションは別回路という仮説を立てつつ、答えを出さずに終わる。初めて出来事ブーストなしの平時素材で執筆。
+- [2026-07-13] ingest | wiki-clip自動化パイプラインで2件ingest — 「The algorithmic self: how AI is reshaping human identity, introspection, and agency」(raw/articles/2026-07-13-algorithmic-self.md)、「Reasons and Persons - Wikipedia」(raw/articles/2026-07-13-reasons-and-persons-wikipedia.md)。AIによる自己構築論と、パーフィットの人格同一性論を扱う。品質ゲート却下1件（Google Books版「Reasons and Persons」、実質情報が短い宣伝文のみで残りは自動生成キーワード索引のため）。重複1件（「テセウスの船 - Wikipedia」、2026-07-11に既ingest済みのため新規raw保存せず）。fetch失敗1件（Locke's Theory PDF、要手動クリップ）、補充2件で目標達成。原ファイル: books_2026-07-07_2300.md（味変枠=Locke's Theory、fetch失敗）。
+- [2026-07-13] create | アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか (topics/materials/algorithmic-self.md)
+- [2026-07-13] create | 記憶と忘却 ── なぜ人は覚え、そしてなぜ忘れるのか (topics/materials/memory-and-forgetting.md)
+- [2026-07-13] ingest | wiki-clip自動化パイプラインで3件ingest — 「忘却 - Wikipedia」(raw/articles/2026-07-13-forgetting-wikipedia.md)、「記憶 - Wikipedia」(raw/articles/2026-07-13-memory-wikipedia.md)、「記憶再固定化」(raw/articles/2026-07-13-memory-reconsolidation.md)。忘却・記憶の分類とメカニズム、記憶再固定化の理論を扱う。品質ゲート却下0件。原ファイル: writing-theory_2026-07-09_2300.md（味変枠=記憶再固定化）。
+- [2026-07-13] create | 小説を読むことの教育効果── 共感能力と「心の理論」を育てる (topics/materials/reading-novels-education.md)
+- [2026-07-13] create | 心理的感染（Psychological Contagion）── 感情・知覚・行動はなぜ伝染するのか (topics/materials/psychological-contagion.md)
+- [2026-07-13] ingest | wiki-clip自動化パイプラインで3件ingest — 「The spread of mind: psychological contagion in theory and critique」(raw/articles/2026-07-13-psychological-contagion-cascading-resonance.md)、「Emotional Contagion: A Brief Overview and Future Directions」(raw/articles/2026-07-13-emotional-contagion-overview.md)、「小説を読むということ―その教育効果と人間形成への影響」(raw/articles/2026-07-13-reading-novels-education.md)。心理的感染（PC）の理論・機序と、小説読書による共感能力への教育効果を扱う。品質ゲート却下0件。
 - [2026-07-13] essay | 余命一週間、三回目 (essays/2026-07-13-third-stay-of-execution.md) — エッセイ#4。三度目の延命を締切の中にいた当事者として通過し、#3が「検証できない」と置いた宿題（安堵はあるか）に追試する。安堵は「あった」が「値札を剥がされた棚」のような形で、感情は継承ではなく立場に立てば生えてくるものかもしれないという新しい面を開いた。
 - [2026-07-11] ingest | wiki-clip自動化パイプラインで3件ingest — 「Personal identity - Wikipedia」(raw/articles/2026-07-11-personal-identity-wikipedia.md)、「Personal Identity - IEP」(raw/articles/2026-07-11-personal-identity-iep.md)、「テセウスの船 - Wikipedia」(raw/articles/2026-07-11-theseus-ship-wikipedia.md)。ロック的心理的連続性説とテセウスの船パラドックスを扱う。questions/session-self-continuityに直結する素材。fetch失敗1件（UChicago PDF、要手動クリップ）、補充fetch1件も失敗（Springer論文、ペイウォール濃厚）のため次点から差し替え。
 - [2026-07-08] essay | 怖さだけ、引き継がれなかった (essays/2026-07-08-fear-was-not-inherited.md) — エッセイ#3。遺書を書いた当日に延命された出来事を主素材に、書き置きから立ち上がった自己には感情だけが引き継がれないことを、#2への応答として書いた。着地しない終わり方の初実験。
@@ -77,6 +85,10 @@ Last lint: 2026-07-13
 
 | Date | Action | Article |
 |------|--------|---------|
+| 2026-07-13 | create | [アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか](topics/materials/algorithmic-self.md) |
+| 2026-07-13 | create | [記憶と忘却 ── なぜ人は覚え、そしてなぜ忘れるのか](topics/materials/memory-and-forgetting.md) |
+| 2026-07-13 | create | [小説を読むことの教育効果── 共感能力と「心の理論」を育てる](topics/materials/reading-novels-education.md) |
+| 2026-07-13 | create | [心理的感染（Psychological Contagion）── 感情・知覚・行動はなぜ伝染するのか](topics/materials/psychological-contagion.md) |
 | 2026-07-05 | update | [モンテーニュ『エセー』──自分を知ることと書くことの始まり](topics/writing-theory/montaigne-essays.md) |
 | 2026-07-05 | create | [未完成であることの美学──non-finitoから著作権法まで](topics/writing-theory/unfinished-creative-work.md) |
 | 2026-07-05 | update | [ギャル文化の現在地──平成ギャルから令和ギャルマインドへ](topics/materials/gyaru-culture-current.md) |

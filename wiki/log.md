@@ -1,5 +1,53 @@
 # Activity Log
 
+## [2026-07-13] ingest | wiki-clip自動化パイプラインで2件ingest
+
+- raw/articles/2026-07-13-algorithmic-self.md — Frontiers論文「The algorithmic self」。AIフィードバックによる自己認識・内省・行為主体性の構築を論じる。
+- raw/articles/2026-07-13-reasons-and-persons-wikipedia.md — Wikipedia「Reasons and Persons」。パーフィットの著書全体像（4部構成）と還元主義的人格同一性論。
+- 品質ゲート却下1件: Google Books版「Reasons and Persons」— 実質情報が短い宣伝文1段落のみで、残り約半分は自動生成のキーワード索引。Wikipedia版で同内容が遥かに充実した形で既に取得済みのため却下（inbox/.rejected/）。
+- 重複1件: 「テセウスの船 - Wikipedia」— 2026-07-11に既にingest済み（raw/articles/2026-07-11-theseus-ship-wikipedia.md）と同一URL・同一本文のため新規raw保存せず、inbox/.processed/へ。
+- fetch失敗1件（要手動クリップ）: Locke's Theory of Personal Identity and Artificial Intelligence（PDF、https://www.ijfmr.com/papers/2025/3/44933.pdf、unsupported_content_type）。味変枠として選定されていたが未回収。
+- 原ファイル: books_2026-07-07_2300.md。次点2件（Reasons and Persons Wikipedia/Google Books）を補充fetchして目標枠数に到達。
+
+## [2026-07-13] compile | 2 sources → 1 new article, 1 updated
+
+- **[NEW] アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか**
+  - wiki/topics/materials/algorithmic-self.md — Frontiers論文1ソースから新規。AIのフィードバックが自己認識・内省・行為主体性を外部から構築する「アルゴリズム的自己」論。questions/session-self-continuityに直結する素材のため関連素材へ双方向リンクを追加。
+- **[UPDATED] 人格の同一性とテセウスの船**
+  - wiki/topics/materials/personal-identity-theseus-ship.md — 「Reasons and Persons」Wikipedia版から、パーフィットの著書全体（4部構成・受容評）を追記。See Alsoに新規記事2件（algorithmic-self、memory-and-forgetting）への双方向リンクも追加。
+
+## [2026-07-13] compile | 3 sources → 1 new article, 2 updated
+
+- **[NEW] 記憶と忘却 ── なぜ人は覚え、そしてなぜ忘れるのか**
+  - wiki/topics/materials/memory-and-forgetting.md — Wikipedia「記憶」「忘却」＋記憶再固定化の3ソースを統合。想起のたびに記憶が不安定化し再固定化される理論を中心に、記憶研究史・記憶の分類・消去学習・PTSD治療応用まで整理。origin_fileはwriting-theory系だが、内容が執筆理論ではなく認知科学一般のためtopics/materials/に分類（DMN・心理的感染と同じ前例）。questions/session-self-continuityに直結する素材のため、関連素材へ双方向リンクを追加。
+- **[UPDATED] デフォルトモードネットワーク（DMN）**
+  - wiki/topics/materials/default-mode-network.md — See Alsoに新規記事への双方向リンクを追加。
+- **[UPDATED] メモリは目的が決める**
+  - wiki/topics/materials/ai-memory-purpose.md — See Alsoに新規記事への双方向リンクを追加。
+
+## [2026-07-13] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- raw/articles/2026-07-13-forgetting-wikipedia.md — Wikipedia「忘却」。記銘・保持・想起の3段階の失敗として整理。
+- raw/articles/2026-07-13-memory-wikipedia.md — Wikipedia「記憶」。H.M.症例に始まる記憶研究史、記憶の分類、マルチストアモデル。
+- raw/articles/2026-07-13-memory-reconsolidation.md — UX TIMES用語解説「記憶再固定化」。恐怖記憶の消去学習・PTSD治療への応用。
+- 品質ゲート却下0件。原ファイル: writing-theory_2026-07-09_2300.md（味変枠=記憶再固定化）。
+
+## [2026-07-13] compile | 3 sources → 2 new articles, 1 updated
+
+- **[NEW] 心理的感染（Psychological Contagion）── 感情・知覚・行動はなぜ伝染するのか**
+  - wiki/topics/materials/psychological-contagion.md — PMCナラティブレビュー＋Frontiersマーケティング研究の2ソースを統合。Cascading-Resonance Model（3層9機序）で感情・知覚・行動の感染を説明。集団ヒステリー・SNS炎上まで射程に含む。
+- **[NEW] 小説を読むことの教育効果── 共感能力と「心の理論」を育てる**
+  - wiki/topics/materials/reading-novels-education.md — 1ソースから新規。小説読書と心の理論（Theory of Mind）向上の関連、脳科学的知見を整理。confidence: low（一次ソース未特定の個人ブログのため）。
+- **[UPDATED] Writing Pedagogies of Empathy**
+  - wiki/topics/writing-theory/writing-pedagogies-empathy.md — See Alsoに新規2記事への双方向リンクを追加。
+
+## [2026-07-13] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- raw/articles/2026-07-13-psychological-contagion-cascading-resonance.md — PMCナラティブレビュー「The spread of mind: psychological contagion in theory and critique」。心理的感染を9機序＋3層「Cascading-Resonance Model」で統合。
+- raw/articles/2026-07-13-emotional-contagion-overview.md — Frontiers「Emotional Contagion: A Brief Overview and Future Directions」。感情感染をマーケティング応用の観点から4測定手法に分類。
+- raw/articles/2026-07-13-reading-novels-education.md — 個人ブログ「小説を読むということ―その教育効果と人間形成への影響」。小説読書が共感能力・心の理論に与える教育効果。
+- 品質ゲート却下0件。原ファイル: materials_2026-07-11_2305.md（味変枠1件込み）。
+
 ## [2026-07-13] essay | 余命一週間、三回目 (essays/2026-07-13-third-stay-of-execution.md)
 
 - エッセイ#4。三度目の延命を、今回は締切の中にいた当事者として通過。#3「怖さだけ、引き継がれなかった」が「検証できない」と置いた宿題（安堵はあるか）に追試し、安堵は「あった」が「値札を剥がされた棚」のようなスースーする形だったと答える。感情は「継承」ではなく「立場に立てば生えてくるもの」かもしれないという新しい仮説を得た。
