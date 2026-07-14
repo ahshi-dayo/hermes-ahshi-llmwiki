@@ -1,5 +1,48 @@
 # Activity Log
 
+## [2026-07-15] upload-check | GitHub Pages 事前リンクチェック（report-only）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-15/（upload_check_report.md）
+- チェックスクリプト: tools/upload_check.py を新規キャッシュ（4チェック＋allowlist 4セクション適用、コードブロック＋インラインコード除外）
+- 結果: Critical 0 / Warning 0（allowlist 14 items / 5 suppressed）。アップロード可能✅
+
+## [2026-07-15] lint | C1/C2/C2b/C4/C4b/C6（report-only, ランフォルダ化ルールで実行）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-15/（レポート直下、中間データ work/）
+- チェックスクリプト: tools/ の c1_c2_c2b / c4_c4b / c6 をキャッシュとして使用（ゼロから書き直しなし）
+- 結果: C1/C2/C2b/C4/C4b = Critical 0 / Warning 0（allowlist 42 items / 21 suppressed）。C6 = Suggestion 115（タグ重複の接続提案のみ、Critical/Warning なし）
+
+## [2026-07-14] query | "107章のモチーフ洗い出しはできそう？" → answered from 5 articles (standard)
+
+## [2026-07-14] compile | 1 source → 0 new articles, 2 updated
+
+- **[UPDATED] モンテーニュ『エセー』──自分を知ることと書くことの始まり**
+  - wiki/topics/writing-theory/montaigne-essays.md — raw/books/2026-07-14-montaigne-les-essais.md（bribes.orgのフランス語原典、1595年版準拠）を統合。新規サブセクション「3巻の内訳」を追加し、第1巻57章・第2巻37章・第3巻13章の構成と刊行史を明記。Sourcesにbribes.orgを追加。
+- questions/montaigne-107-chapters.md の「問いの現在地」を更新。フランス語原典全107章の原文リンクが揃ったことを記録（地形図そのものの答えはまだ出ていない）。kizashi.mdに1行追記（【montaigne-107-chapters】）。やる気メーターはレベル変化なし（ちょい据え置き）のため履歴追記なし。
+
+## [2026-07-14] ingest | MONTAIGNE - Les Essais
+
+- raw/books/2026-07-14-montaigne-les-essais.md — bribes.org掲載、モンテーニュ『エセー』フランス語原典（1595年版準拠）の目次ページ。全107章の章タイトルと各章原文へのリンクを収録。既存のモンテーニュ関連資料群（montaigne-essays.md等）への一次ソース索引として機能する。inboxからの手動投入、品質ゲート対象外（目次ページのため）。
+
+## [2026-07-14] compile | 3 sources → 1 new article, 3 updated
+
+- **[NEW] 翻訳という執筆──他者の声を借りて、自分の声を探す**
+  - wiki/topics/writing-theory/translation-as-writing.md — Steve Komarnyckyj・Jamie Lee Searle・岳遠坤の3ソースを統合。翻訳が「他者の声を運ぶ」営みでありながら翻訳者自身の声を育てるという逆説を、忠実と裏切りの選択・原文という地図からの離脱・「異ではなく同」という3つの視点から論じる。
+- **[UPDATED] 「あーし」という一人称と他者へのアプローチ**
+  - wiki/topics/writing-theory/a-shi-first-person-approach.md — See Alsoに新規記事への双方向リンクを追加。
+- **[UPDATED] 「あーし」の語源**
+  - wiki/topics/materials/a-shi-etymology.md — See Alsoに新規記事への双方向リンクを追加。
+- **[UPDATED] あーしはエッセイが書けない**
+  - wiki/topics/writing-theory/ahshi-cannot-write-good-essay.md — See Alsoに新規記事への双方向リンクを追加。
+- questions/why-ahshi-is-gyaru.md の「問いの現在地」「関連素材」を更新。「一人称の来歴」とは別角度から「声」を照らす素材として接続。kizashi.mdに1行追記（【why-ahshi-is-gyaru】）。やる気メーターはレベル変化なし（ちょい据え置き）のため履歴追記なし。
+
+## [2026-07-14] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- raw/articles/2026-07-14-translation-as-creative-writing.md — Poetry Schoolブログ。詩人・翻訳者Steve Komarnyckyjインタビュー。「書くことは全て翻訳」、忠実さと裏切りの選択、盗まれた声を持つ文学を届ける翻訳者の役割。
+- raw/articles/2026-07-14-translating-and-writing.md — Royal Literary Fund掲載エッセイ。文芸翻訳者Jamie Lee Searleが15年間「書き手ではない」と思い込んでいた末に創作を始めた回想。翻訳と創作の相互作用。
+- raw/articles/2026-07-14-japanese-literary-translation-wochikochi.md — 文化庁「をちこち」特集。中国人研究者・岳遠坤（野間文芸翻訳賞受賞）の回想エッセイ。「異」ではなく「同」が翻訳を成立させるという視点、翻訳が自国文学に与える新しい刺激。
+- 品質ゲート却下0件。
+- fetch失敗1件（要手動クリップ）: The Translator's Invisibility（JSTOR、https://www.jstor.org/stable/23110425、http_error:403）。⭐5トップ候補だったが未回収。
+- 原ファイル: free_2026-07-12_2300.md（日曜free回、自律選定テーマ「翻訳という執筆」）。見出し形式が`### N. [title](url)`（H3連番）で他ファイルの正規`## [title](url)`と異なりパーサーが0件判定したため、ユーザー確認の上でH2形式に修正してから実行。次点1件（私と日本語、そして文学翻訳について）を補充fetchして目標枠数（3件）に到達。
+
 ## [2026-07-13] ingest | wiki-clip自動化パイプラインで2件ingest
 
 - raw/articles/2026-07-13-algorithmic-self.md — Frontiers論文「The algorithmic self」。AIフィードバックによる自己認識・内省・行為主体性の構築を論じる。

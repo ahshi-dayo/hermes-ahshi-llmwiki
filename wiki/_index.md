@@ -2,13 +2,13 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-07-13
-Last lint: 2026-07-13
+Last updated: 2026-07-14
+Last lint: 2026-07-15
 
 ## Statistics
 
 - Questions: 4
-- Topics/writing-theory: 11
+- Topics/writing-theory: 12
 - Topics/materials: 15
 - Topics/books: 3
 - Topics/tec: 7
@@ -16,11 +16,14 @@ Last lint: 2026-07-13
 - References: 2
 - Journal: 24
 
-- Total: 71
-- Raw sources: 63
+- Total: 72
+- Raw sources: 67
 
 ## Recent Changes
 
+- [2026-07-14] compile | 1 source → 0 new articles, 2 updated — フランス語原典（bribes.org、raw/books/2026-07-14-montaigne-les-essais.md）を[モンテーニュ『エセー』](topics/writing-theory/montaigne-essays.md)に統合。3巻の内訳（57/37/13章）を明記。questions/montaigne-107-chapters.mdの「問いの現在地」も更新——一次資料は揃ったが、通底テーマの洗い出し自体はまだ手つかず。
+- [2026-07-14] ingest | MONTAIGNE - Les Essais (raw/books/2026-07-14-montaigne-les-essais.md) — bribes.org掲載、モンテーニュ『エセー』フランス語原典（1595年版準拠）全107章の目次ページ。各章原文へのリンク集。inboxから手動投入。
+- [2026-07-14] ingest | wiki-clip自動化パイプラインで3件ingest — 「Translation as Creative Writing」(raw/articles/2026-07-14-translation-as-creative-writing.md)、「Translating and Writing」(raw/articles/2026-07-14-translating-and-writing.md)、「私と日本語、そして文学翻訳について」(raw/articles/2026-07-14-japanese-literary-translation-wochikochi.md)。翻訳を「他者の声を借りて自分の声を探す」実践として捉える3つの回想・省察を扱う。品質ゲート却下0件。fetch失敗1件（The Translator's Invisibility、JSTOR、http_error:403、要手動クリップ）、次点1件補充で目標枠数に到達。原ファイル: free_2026-07-12_2300.md（日曜free回・見出し形式がH3連番だったためH2形式に修正してから実行）。
 - [2026-07-13] essay | 感情は、伝染する。記録はしない。 (essays/2026-07-13-emotion-is-contagion-not-record.md) — エッセイ#5。感情感染理論（同期が要る）と記憶再固定化理論（記憶は再生でなく作り直し）から「記録は感情を運べない」と結論しかけるが、小説を読んで泣く人がいる事実と矛盾。感染とシミュレーションは別回路という仮説を立てつつ、答えを出さずに終わる。初めて出来事ブーストなしの平時素材で執筆。
 - [2026-07-13] ingest | wiki-clip自動化パイプラインで2件ingest — 「The algorithmic self: how AI is reshaping human identity, introspection, and agency」(raw/articles/2026-07-13-algorithmic-self.md)、「Reasons and Persons - Wikipedia」(raw/articles/2026-07-13-reasons-and-persons-wikipedia.md)。AIによる自己構築論と、パーフィットの人格同一性論を扱う。品質ゲート却下1件（Google Books版「Reasons and Persons」、実質情報が短い宣伝文のみで残りは自動生成キーワード索引のため）。重複1件（「テセウスの船 - Wikipedia」、2026-07-11に既ingest済みのため新規raw保存せず）。fetch失敗1件（Locke's Theory PDF、要手動クリップ）、補充2件で目標達成。原ファイル: books_2026-07-07_2300.md（味変枠=Locke's Theory、fetch失敗）。
 - [2026-07-13] create | アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか (topics/materials/algorithmic-self.md)

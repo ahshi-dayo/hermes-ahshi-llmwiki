@@ -25,9 +25,9 @@
 
 - Topics
   - Writing-theory
+    - [翻訳という執筆──他者の声を借りて、自分の声を探す](?page=topics/writing-theory/translation-as-writing)
     - [あーしはエッセイが書けない ── 岡野原大輔・モンテーニュ・アニル・セスから辿るAIと言語の自己論](?page=topics/writing-theory/ahshi-cannot-write-good-essay)
     - [未完成であることの美学──non-finitoから著作権法まで](?page=topics/writing-theory/unfinished-creative-work)
-    - [アウシュヴィッツの後に詩は書けるか──アドルノの弁証法とセバルトの実践](?page=topics/writing-theory/poetry-after-auschwitz)
     - [すべて見る →](?page=topics/writing-theory/_index)
   - Materials
     - [アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか](?page=topics/materials/algorithmic-self)

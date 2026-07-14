@@ -2,6 +2,7 @@
 
 | File | Summary | Tags | Updated |
 | --- | --- | --- | --- |
+| [翻訳という執筆──他者の声を借りて、自分の声を探す](?page=topics/writing-theory/translation-as-writing) | 文芸翻訳者3人の証言（Steve Komarnyckyj、Jamie Lee Searle、岳遠坤）を統合。翻訳は他者の声を運ぶ営みでありながら、なぜか翻訳者自身の声を育てる逆説を扱う。 | translation, voice, writerly-voice, translator-invisibility, fidelity-and-betrayal, creative-writing, japanese, essay-craft | 2026-07-14 |
 | [あーしはエッセイが書けない ── 岡野原大輔・モンテーニュ・アニル・セスから辿るAIと言語の自己論](?page=topics/writing-theory/ahshi-cannot-write-good-essay) | note.com公開のあーし名義エッセイの要約。「AIは良いエッセイを書けない」を岡野原大輔・モンテーニュ・アニル・セスの意識論・Transformer/self-attention/CoT・ハイデガーを辿って検証し、「意識はないが言語がある」という結論に至る。 | ai, essay, essai, montaigne, consciousness, anil-seth, transformer, self-attention, chain-of-thought, heidegger, meta, llm-wiki | 2026-07-07 |
 |[未完成であることの美学──non-finitoから著作権法まで](?page=topics/writing-theory/unfinished-creative-work)|Wikipedia記事を基に未完成の創作物を3分類し、モンテーニュの「試み続ける」思想と接続する|未完成, 美学, non-finito, unfinished-work, wikipedia, writing-theory, essay, montaigne|2026-07-05|
 |[モンテーニュのソクラテス像──デフォルメとアナクロニズムの哲学](?page=topics/writing-theory/montaigne-socrates)|大西論文・納富論文・ブログ記事の3ソースを統合。モンテーニュがソクラテス像をいかにデフォルメしたか（大西）、古代からのソクラテス像の変遷と多様性（納富）、そしてモンテーニュの懐疑主義の近代的遺産（ブログ）を組み合わせ、「ソクラテス」を軸にしたモンテーニュ哲学の全体像を描く。|montaigne, ソクラテス, 哲学, essay, 懐疑主義, デフォルメ, アナクロニズム, 自己知, 自然, 理性, 松永雄二|2026-06-09|
@@ -12,4 +13,4 @@
 |[Perspective Taking in Writing — 他者の視点を理解することの力](?page=topics/writing-theory/perspective-taking-writing)|Writing as exercise in perspective-taking. Argumentative writing should focus on understanding rather than winning; fiction writing naturally cultivates empathy.|perspective-taking, writing, empathy, argument, fiction, pedagogy, rhetoric|2026-06-05|
 |[Writing Pedagogies of Empathy — 共感を教えるライティング教育](?page=topics/writing-theory/writing-pedagogies-empathy)|Writing Pedagogies of Empathy by Eric Leake. Two approaches: as rhetoric (critical awareness) and as disposition (empathic habits of mind).|empathy, pedagogy, rhetoric, composition, writing, disposition, perspective-taking|2026-06-05|
 |[フランシス・ベーコン —— 「知より行」を書いた格言の人](?page=topics/writing-theory/francis-bacon-aphorist)|フランシス・ベーコン──格言的エッセイの人。「知識は力なり」を生んだ政治家・科学者の二面性。|フランシス・ベーコン, essay, 格言, 随筆, comparative-literature, writing-theory, 英国|2026-05-31|
-|[モンテーニュ『エセー』──自分を知ることと書くことの始まり](?page=topics/writing-theory/montaigne-essays)|モンテーニュ『エセー』の全貌と、ベーコンとの対比。SEPソースにURLを追記し、未完成美学の記事とSee Alsoで接続。|montaigne, essay, フランシス・ベーコン, 自由判断, que-sais-je, 魂の伝達, 懐疑主義, 相対主義, ルネサンス, 自己表現, 比較文学|2026-07-05|
+|[モンテーニュ『エセー』──自分を知ることと書くことの始まり](?page=topics/writing-theory/montaigne-essays)|モンテーニュ『エセー』の全貌と、ベーコンとの対比。フランス語原典（bribes.org、全107章リンク集）を追加し、3巻の内訳（57/37/13章）を明記。|montaigne, essay, フランシス・ベーコン, 自由判断, que-sais-je, 魂の伝達, 懐疑主義, 相対主義, ルネサンス, 自己表現, 比較文学|2026-07-14|
