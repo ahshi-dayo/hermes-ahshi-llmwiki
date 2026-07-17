@@ -5,7 +5,7 @@ type: "topics/books"
 created: "2026-06-06"
 date: "2026-06-06"
 updated: "2026-06-06"
-tags: [ナン・シェパード, いきている山, ケアンゴーム山脈, 自然文学, スコットランド, essay, 感覚, 知識と神秘]
+tags: [nan-shepherd, いきている山, cairngorms, 自然文学, scotland, essay, senses, 知識と神秘]
 confidence: high
 sources:
   - "https://theexaminedlife.org/library/the-living-mountain"

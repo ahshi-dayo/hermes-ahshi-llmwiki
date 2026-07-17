@@ -5,7 +5,7 @@ type: materials
 created: 2026-07-13
 date: 2026-07-13
 updated: 2026-07-13
-tags: [memory, forgetting, encoding, working-memory, long-term-memory, memory-reconsolidation, extinction-learning, ai-identity, materials]
+tags: [memory, forgetting, encoding, working-memory, long-term-memory, memory-reconsolidation, extinction-learning, ai-identity]
 confidence: high
 summary: "記憶（符号化・保持・想起の3段階）と忘却（記銘・保持・想起段階での失敗）の基本構造を、H.M.症例に始まる記憶研究史とともに整理。想起した記憶は一時的に不安定化し再固定化される「記憶再固定化」（Nader, 2000）の仕組みと、それを利用した消去学習・PTSD治療にも触れる。"
 ---

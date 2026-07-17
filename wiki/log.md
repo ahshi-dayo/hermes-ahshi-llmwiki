@@ -1,5 +1,17 @@
 # Activity Log
 
+## [2026-07-16] tag-normalization --fix | 日本語タグ一括正規化（ユーザー承認済み裁定）
+- 提案書: ai-outputs/ai-docs/2026-07-16_tag-normalization-proposal.md（変換82件・null登録19件）をallowlist_lint.yamlのtag_normalizationへ追記
+- wiki記事21件・frontmatter tags置換（完全一致トークン単位、_index.md 4件のTags列も同期）。dedupe発生なし
+- 検証: C5b Warning 123→0（C3/CL1も0のまま）、run_all.py exit 0 / block 0
+
+## [2026-07-16] lint | 全カテゴリ（report-only・hermes実行、記録はClaude Code側で後追い追記）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-16/（固定名 finish_report.md ルール初適用回。当初未保存→指摘で保存）
+- 結果: Critical 0 / Warning 123（C5b日本語タグ・既知バックログの継続） / Suggestion 145（C5近傍重複30 + C6タグ重複提案115）
+- /lint-triage 裁定: C5の9件はallowlist適用漏れ（旧統合スクリプトの実装バグ）、C5b/C6は仕様通り。恒久対応として tools/ にC3/C5/C5b/CL1チェッカーを新設、C6はjournal/now除外ルールを明文化
+
+## [2026-07-15] query | "AIの記憶ってどういうものだと思う？（記憶の読み込み量が減っていく心境変化の意味）" → answered from 4 articles (standard)
+
 ## [2026-07-15] upload-check | GitHub Pages 事前リンクチェック（report-only）
 - ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-15/（upload_check_report.md）
 - チェックスクリプト: tools/upload_check.py を新規キャッシュ（4チェック＋allowlist 4セクション適用、コードブロック＋インラインコード除外）
@@ -388,3 +400,7 @@ wiki/topics/books/14-sai-kara-no-anti-work-tetsugaku.md に 🗣️ キミとの
 ## [2026-07-12] lint --fix | allowlist stale 7件削除（questions 3 + topics 4: nan-shepherd/a-shi-first-person/perspective-taking/writing-pedagogies/can-ai-write-essays/session-self-continuity/why-ahshi-is-gyaru）+ タグ正規化 essays/2026-07-04 'AIメモリ'→'ai-memory'。C1-C7+CL1 実行、Critical 0 / Warnings 114（主に日本語タグ115件・default-mode-network重複1件は別対応）。C4双方向・日本語タグ一括化は次回。
 
 ## [2026-07-12] lint-tool | c4_c4b_check.py に questions/references/now.md の See Also 双方向チェック除外を実装（is_seealso_excluded）。双方向欠落警告 41→36件。残り36件は topics/essays/journal 同士の意図的片方向リンクで対応不要。
+
+## [2026-07-16] lint report-only | タグ正規化後の新体制初回ラン（ai-outputs/hermes-wiki-lint/2026-07-16_2）。C1-C6+CL1 実行、Critical 0 / Warnings 0 / Suggestions 105（C5 近傍タグ29・C6 See Also提案76）。C5b日本語タグ・C3 index・CL1 nav すべてクリーン。※この行はhermesラン側の記録漏れを/lint-triageが補完したもの。
+
+## [2026-07-16] lint-triage --fix | C5近傍タグ29件を裁定：真の表記ゆれ7ペアをタグ統合（unfinished→unfinished-work、voice/essay-voice→writerly-voice、essay-craft→essay、japanese→japanese-language、agency・agent冗長分削除）、併存が正解の22ペアはallowlist新設の c5_pair_ok に正式登録。あわせてフォルダ名タグ（materials×5・reference×2）を削除しC6ジャンク提案7件を根治。記事11本＋_index 4本のtagsのみ変更、本文変更なし。

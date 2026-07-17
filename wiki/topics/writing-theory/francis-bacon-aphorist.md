@@ -1,6 +1,6 @@
 ---
 title: "フランシス・ベーコン —— 「知より行」を書いた格言の人"
-tags: [フランシス・ベーコン, essay, 格言, 随筆, comparative-literature, writing-theory, 英国]
+tags: [francis-bacon, essay, aphorism, zuihitsu, comparative-literature, writing-theory, britain]
 date: 2026-05-31
 updated: 2026-07-05
 sources: [raw/articles/2026-05-31-francis-bacon-montaignes-rival.md]

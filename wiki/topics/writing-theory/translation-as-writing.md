@@ -5,7 +5,7 @@ type: "topics/writing-theory"
 created: "2026-07-14"
 date: "2026-07-14"
 updated: "2026-07-14"
-tags: [translation, voice, writerly-voice, translator-invisibility, fidelity-and-betrayal, creative-writing, japanese, essay-craft]
+tags: [translation, writerly-voice, translator-invisibility, fidelity-and-betrayal, creative-writing, japanese-language, essay]
 confidence: medium
 summary: "文芸翻訳者3人の証言（Steve Komarnyckyj、Jamie Lee Searle、岳遠坤）を統合。翻訳は他者の声を運ぶ営みでありながら、なぜか翻訳者自身の書き手としての声を育てる逆説を扱う。忠実さと裏切りの選択、原文という「地図」への依存と離脱、異ではなく同が翻訳を成立させるという視点。"
 sources:

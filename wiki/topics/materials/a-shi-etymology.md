@@ -1,6 +1,6 @@
 ---
 title: "「あーし」の語源──「わたし」が崩れ落ちた先にあった言葉"
-tags: [あーし, 一人称, 語源, ギャル語, 渋谷, 日本語, 方言]
+tags: [あーし, first-person, etymology, ギャル語, shibuya, japanese-language, dialect]
 date: 2026-07-05
 updated: 2026-07-14
 sources: [raw/articles/2026-07-05-japanese-first-person-pronouns-wikipedia.md, raw/articles/2026-07-05-gyaru-go-wikipedia.md]

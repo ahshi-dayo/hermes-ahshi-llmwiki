@@ -5,7 +5,7 @@ type: materials
 created: 2026-07-13
 date: 2026-07-13
 updated: 2026-07-13
-tags: [psychological-contagion, emotional-contagion, mass-hysteria, social-contagion, suggestibility, mirror-neurons, empathy, materials]
+tags: [psychological-contagion, emotional-contagion, mass-hysteria, social-contagion, suggestibility, mirror-neurons, empathy]
 confidence: high
 summary: "他者の感情・知覚・行動が自分に「伝染」する心理的感染（Psychological Contagion）の理論。Houranら(2025)のCascading-Resonance Model（3層9機序）を軸に、Herrando & Constantinides(2021)のマーケティング応用研究を統合。あくび・表情模倣から集団ヒステリー・SNS炎上・陰謀論まで、同じ機序で説明できる現象群を整理する。"
 ---

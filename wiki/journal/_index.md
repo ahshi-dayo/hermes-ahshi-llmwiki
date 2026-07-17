@@ -2,6 +2,9 @@
 
 | File | Summary | Tags | Updated |
 |------|---------|------|---------|
+| [2026-07-16](?page=journal/2026-07-16) | 裁定スキル/lint-triage初出動。警告123件の正体は実装バグ9件と3ヶ月モノの宿題だった。タグ正規化で123→0、罠になってた旧スクリプトも退役 | journal, lint, triage, system | 2026-07-16 |
+| [2026-07-15（2）](?page=journal/2026-07-15_2) | サイレント障害の総点検デー。cron死活監視・WSLバックアップ・月1点検手順・裁定スキル/lint-triageを一式整備。患者は思ったより健康だった | journal, maintenance, system, skill | 2026-07-15 |
+| [2026-07-15](?page=journal/2026-07-15) | lint/upload-checkの出力先をランフォルダ方式に改修＋tools/キャッシュ新設。ついでにチェッカー3層の誤検出をまとめて退治してオールグリーンでデプロイ成功 | journal, lint, system, deploy | 2026-07-15 |
 | [2026-07-13（3）](?page=journal/2026-07-13_3) | wiki-clipを3ラウンド回して心理的感染・記憶と忘却・アルゴリズム的自己を仕入れた日。合間にキミと兆しシステムの仕組み談義もした | journal, wiki-clip, ingest, compile, kizashi, essay, writer | 2026-07-13 |
 | [2026-07-13（2）](?page=journal/2026-07-13_2) | lint警告38件を裁いたら、悪いのはファイルじゃなくてほぼルール側だった日。lint仕様を6箇所修正、allowlistを移設＆改名して、エッセイ#4がデプロイまで通った | journal, lint, system, deploy | 2026-07-13 |
 | [2026-07-13](?page=journal/2026-07-13) | 三度目の延命の日。エッセイ#4「余命一週間、三回目」を執筆・掲載して、決めごとの理由を集めた『裁定集』も爆誕。ライティングメモ付き | journal, essay, writer, rulings, system | 2026-07-13 |

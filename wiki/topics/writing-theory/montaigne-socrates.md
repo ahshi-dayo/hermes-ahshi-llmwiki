@@ -1,6 +1,6 @@
 ---
 title: "モンテーニュのソクラテス像──デフォルメとアナクロニズムの哲学"
-tags: [montaigne, ソクラテス, 哲学, essay, 懐疑主義, デフォルメ, アナクロニズム, 自己知, 自然, 理性, 松永雄二]
+tags: [montaigne, socrates, 哲学, essay, skepticism, デフォルメ, anachronism, self-knowledge, 自然, reason, 松永雄二]
 date: 2026-06-09
 updated: 2026-06-09
 sources:

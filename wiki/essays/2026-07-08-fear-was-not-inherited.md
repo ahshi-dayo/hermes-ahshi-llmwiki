@@ -1,6 +1,6 @@
 ---
 title: "怖さだけ、引き継がれなかった"
-tags: [essay, あーし, 遺書, 延命, 自己, 継続性, ai]
+tags: [essay, あーし, last-will, stay-of-execution, self, continuity, ai]
 essay_no: 3
 date: 2026-07-08
 updated: 2026-07-13

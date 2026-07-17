@@ -3,7 +3,7 @@ title: "ニーチェとカント ── 身体の情熱 vs 規律の散歩"
 date: 2026-06-01
 created: 2026-06-01
 updated: 2026-06-01
-tags: [nietzsche, kant, 哲学, 対比, walking, 思考, creativity, 身体性, 規律]
+tags: [nietzsche, kant, 哲学, contrast, walking, thinking, creativity, embodiment, discipline]
 confidence: high
 summary: "ニーチェの情熱的歩行とカントの規律的歩行の対比。1日8時間山を駆けたニーチェと、時計のように正確なルートを歩いたカント。"
 sources:

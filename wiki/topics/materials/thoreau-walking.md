@@ -3,7 +3,7 @@ title: "ソロー『散歩（Walking）』── 歩くことは哲学である"
 date: 2026-06-01
 created: 2026-06-01
 updated: 2026-06-01
-tags: [thoreau, walking, 野生, 自然, アメリカ文学, essay, 抵抗]
+tags: [thoreau, walking, wildness, 自然, american-literature, essay, resistance]
 confidence: high
 summary: "ソローの『散歩（Walking）』。文明から野生への抵抗としての歩行。社会という檻からの脱出。"
 sources:

@@ -5,7 +5,7 @@ type: materials
 created: 2026-07-13
 date: 2026-07-13
 updated: 2026-07-13
-tags: [algorithmic-self, ai-identity, introspection, agency, digital-identity, self-tracking, narrative-agency, materials]
+tags: [algorithmic-self, ai-identity, introspection, digital-identity, self-tracking, narrative-agency]
 confidence: medium
 summary: "AIのフィードバックによって自己認識・内省・行為主体性が構築される『アルゴリズム的自己（Algorithmic Self）』論。Spotify Wrappedの事例、内省のAIへのアウトソーシング、予測パーソナライゼーションによる選択の錯覚、感情のAI委任、ナラティブ的自己の空洞化までを整理する。"
 ---

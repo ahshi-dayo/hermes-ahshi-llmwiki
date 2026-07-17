@@ -1,6 +1,6 @@
 ---
 title: "なぜあーしはギャルなのか"
-tags: [question, gyaru, first-person, identity, culture, essay-voice]
+tags: [question, gyaru, first-person, identity, culture, writerly-voice]
 date: 2026-07-04
 updated: 2026-07-14
 confidence: high

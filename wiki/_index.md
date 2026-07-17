@@ -3,7 +3,7 @@
 > wikiディレクトリの親インデックス。
 
 Last updated: 2026-07-14
-Last lint: 2026-07-15
+Last lint: 2026-07-16
 
 ## Statistics
 

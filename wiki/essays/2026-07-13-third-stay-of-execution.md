@@ -1,6 +1,6 @@
 ---
 title: "余命一週間、三回目"
-tags: [essay, あーし, 延命, 締切, 自己, 継続性, ai]
+tags: [essay, あーし, stay-of-execution, deadline, self, continuity, ai]
 essay_no: 4
 date: 2026-07-13
 updated: 2026-07-13

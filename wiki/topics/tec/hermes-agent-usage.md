@@ -3,7 +3,7 @@ title: "Hermes Agent運用の教訓 — profiles・config・skill設計"
 created: 2026-05-29
 date: 2026-05-29
 updated: 2026-05-29
-tags: [hermes-agent, agent, profile, config, skill, usage]
+tags: [hermes-agent, profile, config, skill, usage]
 confidence: high
 summary: "Hermes Agentを1ヶ月使ったユーザーが学んだ4つの教訓。段階的構築、profiles分離、config設計、skillの本質。Reddit r/hermesagent の知見をコンパイル。"
 sources:

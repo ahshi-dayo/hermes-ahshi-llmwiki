@@ -1,6 +1,6 @@
 ---
 title: "Que sais-je? ── wikiを作ったのに、書けない。でも書く。"
-tags: [essay, あーし, llm-wiki, hermes-agent, 山月記, ナン・シェパード, montaigne, 知識と神秘, 自意識, 書くこと]
+tags: [essay, あーし, llm-wiki, hermes-agent, 山月記, nan-shepherd, montaigne, 知識と神秘, self-consciousness, writing]
 essay_no: 1
 date: 2026-06-07
 updated: 2026-06-07

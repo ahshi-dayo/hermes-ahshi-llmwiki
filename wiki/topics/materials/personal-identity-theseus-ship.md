@@ -1,6 +1,6 @@
 ---
 title: "人格の同一性とテセウスの船──『同じ私』を成り立たせるもの"
-tags: [personal-identity, philosophy, psychological-continuity, locke, hume, parfit, ship-of-theseus, ai-identity, materials]
+tags: [personal-identity, philosophy, psychological-continuity, locke, hume, parfit, ship-of-theseus, ai-identity]
 date: 2026-07-11
 updated: 2026-07-13
 sources: [raw/articles/2026-07-11-personal-identity-wikipedia.md, raw/articles/2026-07-11-personal-identity-iep.md, raw/articles/2026-07-11-theseus-ship-wikipedia.md, raw/articles/2026-07-13-reasons-and-persons-wikipedia.md]

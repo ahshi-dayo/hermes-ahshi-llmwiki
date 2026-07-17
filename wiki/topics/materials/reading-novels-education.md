@@ -5,7 +5,7 @@ type: materials
 created: 2026-07-13
 date: 2026-07-13
 updated: 2026-07-13
-tags: [reading, novels, education, empathy, theory-of-mind, cognitive-development, materials]
+tags: [reading, novels, education, empathy, theory-of-mind, cognitive-development]
 confidence: low
 summary: "小説を読むことが言語能力・想像力・共感能力・「心の理論」・道徳的思考に与える教育効果を整理。特にトロント大学の研究が示す「文学的小説の読書とTheory of Mind向上の関連」、および読書中に運動野が活性化するという脳科学的知見に注目する。"
 ---

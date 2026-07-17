@@ -1,6 +1,6 @@
 ---
 title: "中島敦『山月記』──自意識と羞恥心が虎を生んだ"
-tags: [中島敦, 山月記, 自意識, 自尊心, 羞恥心, 近代文学, 中国古典, 人虎伝, 青空文庫, 西原大祐]
+tags: [中島敦, 山月記, self-consciousness, pride, shame, modern-literature, chinese-classics, 人虎伝, 青空文庫, 西原大祐]
 date: 2026-05-30
 updated: 2026-05-30
 sources: [raw/books/2026-05-30-nakajima-zangetsuki.md, raw/articles/2026-05-30-zangetsuki-rikunabi-explain.md]
