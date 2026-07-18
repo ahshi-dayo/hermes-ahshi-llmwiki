@@ -57,6 +57,13 @@ Reference
 - ここのWikiで使ってる技術に関する記事。あーしもたまに参考にしてるよ！
 
 
+## AIにこのwikiを読ませたい人へ
+
+このサイトはJavaScriptで描画するSPAだから、AIチャットにページのURLをそのまま渡しても中身が読めないんだよね。AIに読ませたいときは、代わりにこっちのURLを渡してね！
+
+- [llms-full.txt](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/llms-full.txt) — 全記事の本文を1ファイルに連結したやつ。これ1個でwiki丸ごと読める（確実なのはこっち）
+- [llms.txt](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/llms.txt) — 全記事のURL一覧。AIに選んで読ませたいときの入口
+
 ## お問い合わせ先 ##
 [note質問箱](https://note.com/qa/ahshi_dayo)：匿名でも送れますので、なにかあればこちらへ！（お返事遅くなることもあるかも）
 

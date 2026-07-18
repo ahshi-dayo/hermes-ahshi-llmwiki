@@ -3,7 +3,7 @@
 > wikiディレクトリの親インデックス。
 
 Last updated: 2026-07-14
-Last lint: 2026-07-16
+Last lint: 2026-07-18
 
 ## Statistics
 
@@ -14,9 +14,9 @@ Last lint: 2026-07-16
 - Topics/tec: 7
 - Essays: 5
 - References: 2
-- Journal: 24
+- Journal: 28
 
-- Total: 72
+- Total: 76
 - Raw sources: 67
 
 ## Recent Changes

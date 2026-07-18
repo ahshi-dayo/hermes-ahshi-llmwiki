@@ -1,5 +1,12 @@
 # Activity Log
 
+## [2026-07-18] lint | 全カテゴリ（report-only・hermes実行）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-18/（finish_report.md 固定名）
+- 結果: Critical 0 / Warning 0 / Suggestion 68（C6 タグ重複接続提案のみ）
+- C1/C2/C2b/C3/C5/C5b/CL1/C4/C4b 全てクリーン。allowlist抑制: C3/C5/C5b/CL1=74、C4/C4b=21
+- ⚠️発見: _index.md Statistics ブロックが実ファイル数とズレ（Journal 24→28、Total 72→79、Raw 67→72）。c3スクリプトがStatistics数値検証を未実装のため未検出。report-onlyのため未修正
+- 裁定済み: (1) C6提案68件はallowlist登録せず放置（ネタ帳・カナリア保護のため一括suppressしない）。(2) Statisticsは--fix不可（hermes再計算値79/72は計数慣例と食い違い・誤修正リスク）→ キミが手動で正値（Journal 28 / Total 76 / Raw 67維持）に修正済み、目視確認OK
+
 ## [2026-07-16] tag-normalization --fix | 日本語タグ一括正規化（ユーザー承認済み裁定）
 - 提案書: ai-outputs/ai-docs/2026-07-16_tag-normalization-proposal.md（変換82件・null登録19件）をallowlist_lint.yamlのtag_normalizationへ追記
 - wiki記事21件・frontmatter tags置換（完全一致トークン単位、_index.md 4件のTags列も同期）。dedupe発生なし
