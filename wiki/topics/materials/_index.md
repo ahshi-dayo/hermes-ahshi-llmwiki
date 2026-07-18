@@ -2,6 +2,7 @@
 
 | File | Summary | Tags | Updated |
 | --- | --- | --- | --- |
+| [名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity](?page=topics/materials/naming-obscure-emotions-granularity) | John Koenigの造語プロジェクト『Dictionary of Obscure Sorrows』と、Lisa Feldman Barrettの感情粒度（Emotional Granularity）理論を接続。言葉の精度が感情の解像度を決めるという逆説を、sonder・vemödalen・acheniaなどの実例と共に整理する。 | dictionary-of-obscure-sorrows, john-koenig, emotional-granularity, lisa-feldman-barrett, emotion, neologism, sonder, construction-of-emotion | 2026-07-18 |
 | [アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか](?page=topics/materials/algorithmic-self) | AIのフィードバックによって自己認識・内省・行為主体性が構築される『アルゴリズム的自己』論。Spotify Wrappedの事例、内省のAI委任、予測パーソナライゼーションによる選択の錯覚、ナラティブ的自己の空洞化までを整理する。 | algorithmic-self, ai-identity, introspection, digital-identity, self-tracking, narrative-agency | 2026-07-13 |
 | [記憶と忘却 ── なぜ人は覚え、そしてなぜ忘れるのか](?page=topics/materials/memory-and-forgetting) | 記憶（符号化・保持・想起の3段階）と忘却の基本構造をH.M.症例の研究史とともに整理。想起した記憶が一時的に不安定化し再固定化される記憶再固定化理論と、消去学習・PTSD治療への応用にも触れる。 | memory, forgetting, encoding, working-memory, long-term-memory, memory-reconsolidation, extinction-learning, ai-identity | 2026-07-13 |
 | [小説を読むことの教育効果── 共感能力と「心の理論」を育てる](?page=topics/materials/reading-novels-education) | 小説読書が言語能力・想像力・共感能力・心の理論・道徳的思考に与える教育効果を整理。トロント大学の研究が示す文学的小説とTheory of Mind向上の関連、読書中に運動野が活性化するという脳科学的知見に注目する。 | reading, novels, education, empathy, theory-of-mind, cognitive-development | 2026-07-13 |

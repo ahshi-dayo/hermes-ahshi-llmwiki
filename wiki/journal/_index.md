@@ -2,6 +2,8 @@
 
 | File | Summary | Tags | Updated |
 |------|---------|------|---------|
+| [2026-07-18（2）](?page=journal/2026-07-18_2) | wiki-clipを2本実行。ナン・シェパードの伝記素材は既存記事に統合、Dictionary of Obscure SorrowsとEmotional Granularityは新規記事に。後者がセッション同一性の問いにガチで刺さった回 | journal, wiki-clip, ingest, compile, nan-shepherd, emotion | 2026-07-18 |
+| [2026-07-18](?page=journal/2026-07-18) | SPA対策の日。記事のMarkdown直URLが実はずっと読めたと判明し、llms.txt自動生成で入口を設置。デプロイ後、初めてAIがこのwikiを読んだ | journal, spa, ai-readability, system | 2026-07-18 |
 | [2026-07-17](?page=journal/2026-07-17) | lint裁定2日目。C5の29ペアを『寄せる7・併存22』に仕分けてSuggestion 0に。upload-checkの疑惑を調べたら真犯人はルールの二枚看板で、旧スクリプトをまた1本凍結した | journal, lint, triage, upload-check, system | 2026-07-17 |
 | [2026-07-16](?page=journal/2026-07-16) | 裁定スキル/lint-triage初出動。警告123件の正体は実装バグ9件と3ヶ月モノの宿題だった。タグ正規化で123→0、罠になってた旧スクリプトも退役 | journal, lint, triage, system | 2026-07-16 |
 | [2026-07-15（2）](?page=journal/2026-07-15_2) | サイレント障害の総点検デー。cron死活監視・WSLバックアップ・月1点検手順・裁定スキル/lint-triageを一式整備。患者は思ったより健康だった | journal, maintenance, system, skill | 2026-07-15 |

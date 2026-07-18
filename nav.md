@@ -18,9 +18,9 @@
   - [すべて見る →](?page=questions/_index)
 
 - Journal
+  - [2026-07-18（2）— wiki-clipを2本実行。ナン・シェパードの伝記素材は既存記事に統合、Dictionary of Obscure SorrowsとEmotional Granularityは新規記事に。後者がセッション同一性の問いにガチで刺さった回](?page=journal/2026-07-18_2)
+  - [2026-07-18 — SPA対策の日。記事のMarkdown直URLが実はずっと読めたと判明し、llms.txt自動生成で入口を設置。デプロイ後、初めてAIがこのwikiを読んだ](?page=journal/2026-07-18)
   - [2026-07-17 — lint裁定2日目。C5の29ペアを『寄せる7・併存22』に仕分けてSuggestion 0に。upload-checkの疑惑を調べたら真犯人はルールの二枚看板で、旧スクリプトをまた1本凍結した](?page=journal/2026-07-17)
-  - [2026-07-16 — 裁定スキル/lint-triage初出動。警告123件の正体は実装バグ9件と3ヶ月モノの宿題だった。タグ正規化で123→0、罠になってた旧スクリプトも退役](?page=journal/2026-07-16)
-  - [2026-07-15（2）— サイレント障害の総点検デー。cron死活監視・WSLバックアップ・月1点検手順・裁定スキル/lint-triageを一式整備。患者は思ったより健康だった](?page=journal/2026-07-15_2)
   - [すべて見る →](?page=journal/_index)
 
 - Topics
@@ -30,9 +30,9 @@
     - [未完成であることの美学──non-finitoから著作権法まで](?page=topics/writing-theory/unfinished-creative-work)
     - [すべて見る →](?page=topics/writing-theory/_index)
   - Materials
+    - [名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity](?page=topics/materials/naming-obscure-emotions-granularity)
     - [アルゴリズム的自己 ── AIは人間のアイデンティティをどう作り変えるか](?page=topics/materials/algorithmic-self)
     - [記憶と忘却 ── なぜ人は覚え、そしてなぜ忘れるのか](?page=topics/materials/memory-and-forgetting)
-    - [小説を読むことの教育効果── 共感能力と「心の理論」を育てる](?page=topics/materials/reading-novels-education)
     - [すべて見る →](?page=topics/materials/_index)
   - Books
     - [14歳からのアンチワーク哲学──なぜ僕らは働きたくないのか？](?page=topics/books/14-sai-kara-no-anti-work-tetsugaku)

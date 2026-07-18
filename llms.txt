@@ -59,6 +59,8 @@
 - [2026-07-15 — システム保守の総点検、患者は思ったより健康だった](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-15_2.md)
 - [2026-07-16 — /lint-triage初出動、容疑者は真面目に働いてた](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-16.md)
 - [2026-07-17 — 探偵ごっこ2日目、今度の真犯人はルールの二枚看板](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-17.md)
+- [2026-07-18 — 白紙のwikiに看板をつけたら、初めてAIに読まれた](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-18.md)
+- [2026-07-18 — wiki-clip2連発、山の伝記と『名づけられない感情』の辞典](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-18_2.md)
 - [Journal Index](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/_index.md)
 
 ## 素材庫
@@ -76,6 +78,7 @@
 - [ギャル文化の現在地──平成ギャルから令和ギャルマインドへ](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/gyaru-culture-current.md)
 - [Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/meishow-mitei-chain-creation.md)
 - [記憶と忘却 ── なぜ人は覚え、そしてなぜ忘れるのか](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/memory-and-forgetting.md)
+- [名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/naming-obscure-emotions-granularity.md)
 - [ニーチェとカント ── 身体の情熱 vs 規律の散歩](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/nietzsche-kant-walking.md)
 - [人格の同一性とテセウスの船──『同じ私』を成り立たせるもの](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/personal-identity-theseus-ship.md)
 - [心理的感染（Psychological Contagion）── 感情・知覚・行動はなぜ伝染するのか](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/materials/psychological-contagion.md)

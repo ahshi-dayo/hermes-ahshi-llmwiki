@@ -2,25 +2,29 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-07-14
+Last updated: 2026-07-18
 Last lint: 2026-07-18
 
 ## Statistics
 
 - Questions: 4
 - Topics/writing-theory: 12
-- Topics/materials: 15
+- Topics/materials: 16
 - Topics/books: 3
 - Topics/tec: 7
 - Essays: 5
 - References: 2
-- Journal: 28
+- Journal: 30
 
-- Total: 76
-- Raw sources: 67
+- Total: 79
+- Raw sources: 73
 
 ## Recent Changes
 
+- [2026-07-18] compile | 3 sources → 1 new article, 0 updated — [名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity](topics/materials/naming-obscure-emotions-granularity.md)を新規作成。John Koenigの造語プロジェクトとLisa Feldman Barrettの感情粒度理論を接続。See Alsoから[感情は、伝染する。記録はしない。](essays/2026-07-13-emotion-is-contagion-not-record.md)・psychological-contagion・memory-and-forgetting・a-shi-etymologyへ双方向リンク。
+- [2026-07-18] ingest | wiki-clip自動化パイプラインで3件ingest — 「The Dictionary of Obscure Sorrows - Wikipedia」(raw/articles/2026-07-18-the-dictionary-of-obscure-sorrows-wikipedia.md)、「Emotional granularity - Wikipedia」(raw/articles/2026-07-18-emotional-granularity-wikipedia.md)、「The Dictionary of Obscure Sorrows」公式サイト(raw/notes/2026-07-18-dictionary-of-obscure-sorrows-official-site.md)。名づけられない感情への造語プロジェクトと感情粒度理論を扱う。品質ゲート却下0件。原ファイル: materials_2026-07-15_2300.md（味変枠=Dictionary of Obscure Sorrows公式サイト）。
+- [2026-07-18] compile | 3 sources → 0 new articles, 1 updated — [ナン・シェパード『いきている山』](topics/books/nan-shepherd-the-living-mountain.md)に学生・教員生活、死後の顕彰史（RBS五ポンド紙幣・Nan Shepherd Prize・戯曲化・Following Nanプロジェクト）、みすず書房版『いきている山』の書誌情報を追加統合。
+- [2026-07-18] ingest | wiki-clip自動化パイプラインで3件ingest — 「'To aim for the highest point is not the only way to climb a mountain'」(raw/notes/2026-07-18-to-aim-for-the-highest-point-is-not-the-only-way-to-climb.md)、「いきている山 | みすず書房」(raw/notes/2026-07-18-ikiteiru-yama-misuzu-shobo.md)、「Nan Shepherd - Wikipedia」(raw/articles/2026-07-18-nan-shepherd-wikipedia.md)。ナン・シェパードの生涯・『いきている山』日本語版書誌・英語版百科事典記事を扱う。品質ゲート却下0件。原ファイル: books_2026-07-17_2300.md（味変枠=Nan Shepherd Wikipedia）。2026-06-06にingest済みの評伝2件とはURL・視点が異なるため重複なし。
 - [2026-07-14] compile | 1 source → 0 new articles, 2 updated — フランス語原典（bribes.org、raw/books/2026-07-14-montaigne-les-essais.md）を[モンテーニュ『エセー』](topics/writing-theory/montaigne-essays.md)に統合。3巻の内訳（57/37/13章）を明記。questions/montaigne-107-chapters.mdの「問いの現在地」も更新——一次資料は揃ったが、通底テーマの洗い出し自体はまだ手つかず。
 - [2026-07-14] ingest | MONTAIGNE - Les Essais (raw/books/2026-07-14-montaigne-les-essais.md) — bribes.org掲載、モンテーニュ『エセー』フランス語原典（1595年版準拠）全107章の目次ページ。各章原文へのリンク集。inboxから手動投入。
 - [2026-07-14] ingest | wiki-clip自動化パイプラインで3件ingest — 「Translation as Creative Writing」(raw/articles/2026-07-14-translation-as-creative-writing.md)、「Translating and Writing」(raw/articles/2026-07-14-translating-and-writing.md)、「私と日本語、そして文学翻訳について」(raw/articles/2026-07-14-japanese-literary-translation-wochikochi.md)。翻訳を「他者の声を借りて自分の声を探す」実践として捉える3つの回想・省察を扱う。品質ゲート却下0件。fetch失敗1件（The Translator's Invisibility、JSTOR、http_error:403、要手動クリップ）、次点1件補充で目標枠数に到達。原ファイル: free_2026-07-12_2300.md（日曜free回・見出し形式がH3連番だったためH2形式に修正してから実行）。

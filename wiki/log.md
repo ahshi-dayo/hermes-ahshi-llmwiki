@@ -1,11 +1,53 @@
 # Activity Log
 
+## [2026-07-18] compile | 3 sources → 1 new article, 0 updated
+
+- **[NEW] 名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity**
+  - wiki/topics/materials/naming-obscure-emotions-granularity.md — John KoenigのDictionary of Obscure Sorrows（造語プロジェクト、sonder・vemödalen・achenia）と、Lisa Feldman Barrettの感情粒度理論（ラベリング仮説→構成仮説への修正）を接続。言葉の精度が感情の解像度を決めるという逆説を論じる。See Alsoで[感情は、伝染する。記録はしない。](?page=essays/2026-07-13-emotion-is-contagion-not-record)・psychological-contagion・memory-and-forgetting・a-shi-etymologyと双方向リンク。
+
+## [2026-07-18] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- 「The Dictionary of Obscure Sorrows - Wikipedia」(raw/articles/2026-07-18-the-dictionary-of-obscure-sorrows-wikipedia.md)
+- 「Emotional granularity - Wikipedia」(raw/articles/2026-07-18-emotional-granularity-wikipedia.md)
+- 「The Dictionary of Obscure Sorrows」公式サイト(raw/notes/2026-07-18-dictionary-of-obscure-sorrows-official-site.md)
+- 品質ゲート却下0件、fetch失敗0件。原ファイル: materials_2026-07-15_2300.md（味変枠=Dictionary of Obscure Sorrows公式サイト、⭐4）
+
+## [2026-07-18] compile | 3 sources → 0 new articles, 1 updated
+
+- **[UPDATED] ナン・シェパード『いきている山』──知識は謎を深め、山は生きている**
+  - wiki/topics/books/nan-shepherd-the-living-mountain.md — 新規セクション「学生時代と教職 ── 山との出会い」「死後の顕彰 ── 五ポンド紙幣から戯曲まで」「日本語版『いきている山』（みすず書房）」を追加。アバディーン大学での学生・教員生活、John Macmurrayとの恋愛、Nan Shepherd Prize・RBS五ポンド紙幣・戯曲化・Following Nanプロジェクトによる死後の顕彰史、みすず書房版（2022年、訳: 佐藤泰人）の書誌・書評情報を統合。Sourcesに3件追加、あーしメモに追記。
+
+## [2026-07-18] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- 「'To aim for the highest point is not the only way to climb a mountain'」(raw/notes/2026-07-18-to-aim-for-the-highest-point-is-not-the-only-way-to-climb.md) — アバディーン大学によるナン・シェパードの生涯を辿る公式記事
+- 「いきている山 | みすず書房」(raw/notes/2026-07-18-ikiteiru-yama-misuzu-shobo.md) — 日本語版の書誌情報・目次・書評
+- 「Nan Shepherd - Wikipedia」(raw/articles/2026-07-18-nan-shepherd-wikipedia.md) — 英語版百科事典記事
+- 品質ゲート却下0件、fetch失敗0件。原ファイル: books_2026-07-17_2300.md（味変枠=Nan Shepherd Wikipedia、⭐4）。2026-06-06にingest済みの評伝2件（theexaminedlife.org、themarginalian.org）とはURL・切り口が異なるため重複なし
+
 ## [2026-07-18] lint | 全カテゴリ（report-only・hermes実行）
 - ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-18/（finish_report.md 固定名）
+
+## [2026-07-18] lint | 全カテゴリ（report-only・hermes実行・2回目）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-18_2/（finish_report.md 固定名）
+- 実行: C1/C2/C2b + C3/C5/C5b/CL1 + C4/C4b + C6（tools/ カテゴリ別スクリプト経由）
+- 結果: Critical 0 / Warnings 1 / Suggestions 70（C3のSuggestion 2 + C6の68）
+  - C1/C2/C2b: 0件（構造・frontmatter・あーしメモ見出し クリーン）
+  - C3: index整合OK ✅ / Statistics不整合を修正（Journal 29→30, Total 78→79）
+  - C5/C5b: 日本語タグは全allowlist済み ✅ / 近傍重複タグ2ペア（ai~ai-readability, construction-of-emotion~emotion）をSuggestion
+  - CL1: nav.md 同期OK ✅
+  - C4: Warning 1（log.md 内の `.md` 相対パスリンク → essays/2026-07-13-emotion-is-contagion-not-record.md）。log.mdはメタファイル（allowlist登録済・SPA対象外）のため実害なし、キミ指示で放置
+  - C6: Suggestion 68（タグ重複→See Also提案、ノイズ系で放置）
+- allowlist抑制: C3/C5/C5b/CL1=215件(74抑制) / C4=64件(21抑制)
 - 結果: Critical 0 / Warning 0 / Suggestion 68（C6 タグ重複接続提案のみ）
 - C1/C2/C2b/C3/C5/C5b/CL1/C4/C4b 全てクリーン。allowlist抑制: C3/C5/C5b/CL1=74、C4/C4b=21
 - ⚠️発見: _index.md Statistics ブロックが実ファイル数とズレ（Journal 24→28、Total 72→79、Raw 67→72）。c3スクリプトがStatistics数値検証を未実装のため未検出。report-onlyのため未修正
 - 裁定済み: (1) C6提案68件はallowlist登録せず放置（ネタ帳・カナリア保護のため一括suppressしない）。(2) Statisticsは--fix不可（hermes再計算値79/72は計数慣例と食い違い・誤修正リスク）→ キミが手動で正値（Journal 28 / Total 76 / Raw 67維持）に修正済み、目視確認OK
+
+## [2026-07-18] upload-check | 全チェック（hermes実行・lintに続けて）
+- コマンド: `python3 scripts/ci_checks/run_all.py <リポジトリルート>`（リポジトリ相対表記）
+- 結果: **findings 0（block 0 / warn 0）** — leak / links / schema / freshness 全てクリーン。exit 0 → push/deploy 可能
+- allowlist: 正準 PJ/.claude/skills/wiki-upload-check/references/allowlist.yaml（4セクション全適用・読み込み確認済み）
+- 報告書: ai-outputs/hermes-wiki-lint/2026-07-18_2/report_for_claude.md（固定名）
 
 ## [2026-07-16] tag-normalization --fix | 日本語タグ一括正規化（ユーザー承認済み裁定）
 - 提案書: ai-outputs/ai-docs/2026-07-16_tag-normalization-proposal.md（変換82件・null登録19件）をallowlist_lint.yamlのtag_normalizationへ追記
