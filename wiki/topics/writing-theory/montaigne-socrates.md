@@ -150,6 +150,7 @@ summary: "大西論文・納富論文・ブログ記事の3ソースを統合。
 - [モンテーニュ『エセー』──自分を知ることと書くことの始まり](?page=topics/writing-theory/montaigne-essays) — モンテーニュのエッセイ論。ソクラテス像の追加で厚みを増す
 - [アウシュヴィッツの後に詩は書けるか──アドルノの弁証法とセバルトの実践](?page=topics/writing-theory/poetry-after-auschwitz) — 「デフォルメ」「表現の変形」の系譜
 - [フランシス・ベーコン —— 「知より行」を書いた格言の人](?page=topics/writing-theory/francis-bacon-aphorist) — モンテーニュ×ソクラテス×ベーコンの三角関係
+- [モンテーニュの自己描写論──『存在』ではなく『移り変わり』を描く](?page=topics/writing-theory/montaigne-self-portraiture-solitude) — 他者像（ソクラテス）を借りた自己語りと、自分自身を直接描写する技法。同じ自己探究の別ルート
 
 ## Sources
 

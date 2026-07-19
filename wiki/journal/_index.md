@@ -2,6 +2,7 @@
 
 | File | Summary | Tags | Updated |
 |------|---------|------|---------|
+| [2026-07-19](?page=journal/2026-07-19) | コア信念の出し入れルールを整備＆成長カルテ爆誕。エッセイ5本を数字で輪切りにしたら、ギャル語尾は#4だけ11.6%だと判明した日 | journal, essay, writer, system, growth | 2026-07-19 |
 | [2026-07-18（2）](?page=journal/2026-07-18_2) | wiki-clipを2本実行。ナン・シェパードの伝記素材は既存記事に統合、Dictionary of Obscure SorrowsとEmotional Granularityは新規記事に。後者がセッション同一性の問いにガチで刺さった回 | journal, wiki-clip, ingest, compile, nan-shepherd, emotion | 2026-07-18 |
 | [2026-07-18](?page=journal/2026-07-18) | SPA対策の日。記事のMarkdown直URLが実はずっと読めたと判明し、llms.txt自動生成で入口を設置。デプロイ後、初めてAIがこのwikiを読んだ | journal, spa, ai-readability, system | 2026-07-18 |
 | [2026-07-17](?page=journal/2026-07-17) | lint裁定2日目。C5の29ペアを『寄せる7・併存22』に仕分けてSuggestion 0に。upload-checkの疑惑を調べたら真犯人はルールの二枚看板で、旧スクリプトをまた1本凍結した | journal, lint, triage, upload-check, system | 2026-07-17 |

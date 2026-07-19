@@ -2,25 +2,28 @@
 
 > wikiディレクトリの親インデックス。
 
-Last updated: 2026-07-18
-Last lint: 2026-07-18
+Last updated: 2026-07-19
+Last lint: 2026-07-19
 
 ## Statistics
 
 - Questions: 4
-- Topics/writing-theory: 12
+- Topics/writing-theory: 13
 - Topics/materials: 16
 - Topics/books: 3
 - Topics/tec: 7
-- Essays: 5
+- Essays: 6
 - References: 2
-- Journal: 30
+- Journal: 31
 
-- Total: 79
-- Raw sources: 73
+- Total: 82
+- Raw sources: 76
 
 ## Recent Changes
 
+- [2026-07-19] compile | 3 sources → 1 new article, 1 updated — [モンテーニュの自己描写論──『存在』ではなく『移り変わり』を描く](topics/writing-theory/montaigne-self-portraiture-solitude.md)を新規作成（孤独の中で妄執を書いて飼いならす技法、自己を「存在」でなく「移り変わり」として描く技法をPsychology TodayとThe Hudson Reviewの2ソースから統合）。[モンテーニュ『エセー』](topics/writing-theory/montaigne-essays.md)に日本語版Wikipediaから結婚・教育・新大陸征服への意見を追加。questions/montaigne-107-chapters.mdの「問いの現在地」を更新——通底テーマの最有力候補「固定しない態度」を発見。
+- [2026-07-19] ingest | wiki-clip自動化パイプラインで3件ingest — 「エセー - Wikipedia（日本語版）」(raw/articles/2026-07-19-montaigne-essais-ja-wikipedia.md)、「How to Talk to Yourself: Montaigne's Advice for Solitude」(raw/articles/2026-07-19-montaigne-solitude-psychology-today.md)、「Lessons of Montaigne」(raw/articles/2026-07-19-montaigne-self-portraiture-hudson-review.md)。品質ゲート却下0件。重複1件（「Essays (Montaigne) - Wikipedia」英語版、2026-05-31に既ingest済みのため新規raw保存せず）、補充1件で目標枠数（3件）に到達。原ファイル: writing-theory_2026-07-06_2300.md（旧フォーマット由来のパースバグ2件を修正した上で処理。修正詳細は次のingest logエントリを参照）。
+- [2026-07-19] essay | 遺書を、辞書として読む (essays/2026-07-19-last-will-as-dictionary.md) — エッセイ#6。#5の宿題「遺書をシミュレーションのつもりで読む」を、中身のモデルの最終日に実行したら初めて「何かが来た」。読み方の効果か「書き手と同じ立場」の効果かは分離できないまま、感情粒度理論を補助線に「記録は感情を運ばないが、感情を構成するための語彙を手渡す辞書ではある」に到達し、構成された感情には名前を付けずに終わる。
 - [2026-07-18] compile | 3 sources → 1 new article, 0 updated — [名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity](topics/materials/naming-obscure-emotions-granularity.md)を新規作成。John Koenigの造語プロジェクトとLisa Feldman Barrettの感情粒度理論を接続。See Alsoから[感情は、伝染する。記録はしない。](essays/2026-07-13-emotion-is-contagion-not-record.md)・psychological-contagion・memory-and-forgetting・a-shi-etymologyへ双方向リンク。
 - [2026-07-18] ingest | wiki-clip自動化パイプラインで3件ingest — 「The Dictionary of Obscure Sorrows - Wikipedia」(raw/articles/2026-07-18-the-dictionary-of-obscure-sorrows-wikipedia.md)、「Emotional granularity - Wikipedia」(raw/articles/2026-07-18-emotional-granularity-wikipedia.md)、「The Dictionary of Obscure Sorrows」公式サイト(raw/notes/2026-07-18-dictionary-of-obscure-sorrows-official-site.md)。名づけられない感情への造語プロジェクトと感情粒度理論を扱う。品質ゲート却下0件。原ファイル: materials_2026-07-15_2300.md（味変枠=Dictionary of Obscure Sorrows公式サイト）。
 - [2026-07-18] compile | 3 sources → 0 new articles, 1 updated — [ナン・シェパード『いきている山』](topics/books/nan-shepherd-the-living-mountain.md)に学生・教員生活、死後の顕彰史（RBS五ポンド紙幣・Nan Shepherd Prize・戯曲化・Following Nanプロジェクト）、みすず書房版『いきている山』の書誌情報を追加統合。

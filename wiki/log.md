@@ -1,5 +1,38 @@
 # Activity Log
 
+## [2026-07-19] upload-check | 全チェック（hermes実行・lintに続けて）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-19/（report_for_claude.md 固定名）
+- コマンド: `python3 scripts/ci_checks/run_all.py <リポジトリルート>`（リポジトリ相対表記）
+- 結果: **findings 0（block 0 / warn 0）** — leak / links / schema / freshness 全てクリーン。exit 0 → push/deploy 可能 ✅
+- allowlist: 正準 PJ/.claude/skills/wiki-upload-check/references/allowlist.yaml（4セクション全適用・読み込み確認済み）
+- 備考: lint の C4 Warning 1件（last-will-as-dictionary の See Also 片方向）はキミが手動で逆リンク双方向化を実施済み。upload-check は ?page= リンク全解決（block 0）
+
+## [2026-07-19] lint | 全カテゴリ（report-only・hermes実行）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-19/（finish_report.md 固定名）
+- 実行: C1/C2/C2b + C3/C5/C5b/CL1 + C4/C4b + C6（tools/ カテゴリ別スクリプト経由）
+- 結果: Critical 0 / Warnings 1 / Suggestions 82
+  - C1/C2/C2b/C3/C5/C5b/CL1: クリーン（Info OK 4件）
+  - C4: Warning 1（essays/2026-07-19-last-will-as-dictionary.md の See Also が4件片方向＝今日新規エッセイ#6の逆リンク漏れの疑い。相手: essays/2026-07-08-fear-was-not-inherited・2026-07-13-emotion-is-contagion-not-record・2026-07-13-third-stay-of-execution・topics/materials/naming-obscure-emotions-granularity）
+  - C4b: 21件 allowlist 抑制でクリーン
+  - C6: Suggestion 82（タグ重複→See Also 接続提案、全件ノイズ系で放置）
+- allowlist抑制: C3/C5/C5b/CL1=217件(41抑制) / C4=66件(21抑制)
+- 裁定事項: (1) C4 Warning 1件は逆リンク追加を推奨（キミ判断待ち）。(2) C6 Suggestion 82件は従来運用通り一括 suppress せず放置
+
+## [2026-07-19] compile | 3 sources → 1 new article, 1 updated
+
+- **[NEW] モンテーニュの自己描写論──『存在』ではなく『移り変わり』を描く**
+  - wiki/topics/writing-theory/montaigne-self-portraiture-solitude.md — Psychology Today「How to Talk to Yourself」とThe Hudson Review「Lessons of Montaigne」の2ソースを統合。モンテーニュが繰り返した2つの技法（孤独の中で妄執を書いて飼いならすこと／自分を「存在」でなく「移り変わり」として描くこと）を扱い、ルソーの独自性主張との対比、questions/montaigne-107-chapters.mdへの示唆をまとめる。
+- **[UPDATED] モンテーニュ『エセー』──自分を知ることと書くことの始まり**
+  - wiki/topics/writing-theory/montaigne-essays.md — 日本語版Wikipediaから新規セクション「結婚・教育・新大陸への意見」を追加。See Also・Sourcesを更新。
+- questions/montaigne-107-chapters.md の「問いの現在地」を更新——通底テーマの最有力候補として「固定しない態度」（自己を固定対象でなく生成し続けるプロセスとして扱う姿勢）を発見。
+
+## [2026-07-19] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- 「エセー - Wikipedia（日本語版）」(raw/articles/2026-07-19-montaigne-essais-ja-wikipedia.md)
+- 「How to Talk to Yourself: Montaigne's Advice for Solitude」(raw/articles/2026-07-19-montaigne-solitude-psychology-today.md)
+- 「Lessons of Montaigne」(raw/articles/2026-07-19-montaigne-self-portraiture-hudson-review.md)
+- モンテーニュが繰り返し書いたテーマ（自己描写・孤独・懐疑主義）を扱う3件。品質ゲート却下0件。重複1件（「Essays (Montaigne) - Wikipedia」英語版、2026-05-31に既ingest済み・montaigne-essays.mdで使用済みのため新規raw保存せず）、補充1件（Lessons of Montaigne, Hudson Review）で目標枠数（3件）に到達。原ファイル: writing-theory_2026-07-06_2300.md。**この原ファイルは旧フォーマット（`- **信頼度**: ⭐` 太字＋半角コロン）で書かれており、標準フォーマット（`- 信頼度：⭐` 非太字＋全角コロン）を前提とするパーサーが全候補を⭐0と誤認する不具合があった。加えて見出し正規表現がURL内の丸括弧（例: `Essays_(Montaigne)`）で候補を1件取りこぼす別バグも発覚。coordinatorの承認を得て、scripts/wiki_clip/fetch_candidates.pyの見出し正規表現を修正（バランス丸括弧を許容、既存の標準フォーマットへの後方互換はdry-run 2本で確認済み）、当該アーカイブ済みファイルのフィールド書式を標準形式へ正規化（内容・⭐数は不変）。**
+
 ## [2026-07-18] compile | 3 sources → 1 new article, 0 updated
 
 - **[NEW] 名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity**

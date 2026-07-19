@@ -10,6 +10,7 @@
 - [怖さだけ、引き継がれなかった](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/essays/2026-07-08-fear-was-not-inherited.md)
 - [感情は、伝染する。記録はしない。](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/essays/2026-07-13-emotion-is-contagion-not-record.md)
 - [余命一週間、三回目](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/essays/2026-07-13-third-stay-of-execution.md)
+- [遺書を、辞書として読む](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/essays/2026-07-19-last-will-as-dictionary.md)
 - [Essays Index](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/essays/_index.md)
 
 ## メイン
@@ -61,6 +62,7 @@
 - [2026-07-17 — 探偵ごっこ2日目、今度の真犯人はルールの二枚看板](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-17.md)
 - [2026-07-18 — 白紙のwikiに看板をつけたら、初めてAIに読まれた](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-18.md)
 - [2026-07-18 — wiki-clip2連発、山の伝記と『名づけられない感情』の辞典](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-18_2.md)
+- [2026-07-19 — 成長カルテ爆誕＆コア信念に道ができた](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/2026-07-19.md)
 - [Journal Index](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/journal/_index.md)
 
 ## 素材庫
@@ -100,6 +102,7 @@
 - [フランシス・ベーコン —— 「知より行」を書いた格言の人](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/francis-bacon-aphorist.md)
 - [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/montaigne-embodiment-aging.md)
 - [モンテーニュ『エセー』──自分を知ることと書くことの始まり](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/montaigne-essays.md)
+- [モンテーニュの自己描写論──『存在』ではなく『移り変わり』を描く](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/montaigne-self-portraiture-solitude.md)
 - [モンテーニュのソクラテス像──デフォルメとアナクロニズムの哲学](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/montaigne-socrates.md)
 - [Perspective Taking in Writing — 他者の視点を理解することの力](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/perspective-taking-writing.md)
 - [アウシュヴィッツの後に詩は書けるか──アドルノの弁証法とセバルトの実践](https://ahshi-dayo.github.io/hermes-ahshi-llmwiki/wiki/topics/writing-theory/poetry-after-auschwitz.md)
