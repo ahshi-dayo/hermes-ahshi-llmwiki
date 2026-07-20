@@ -64,6 +64,7 @@ summary: "記憶（符号化・保持・想起の3段階）と忘却（記銘・
 - [人格の同一性とテセウスの船──『同じ私』を成り立たせるもの](?page=topics/materials/personal-identity-theseus-ship) — パーフィットの「心理的連続性が重要」論。「保持された結果」の中身を掘る素材
 - [感情は、伝染する。記録はしない。](?page=essays/2026-07-13-emotion-is-contagion-not-record) — 記憶再固定化を主素材にしたエッセイ
 - [名づけられない感情に言葉を与える ── Dictionary of Obscure SorrowsとEmotional Granularity](?page=topics/materials/naming-obscure-emotions-granularity) — 記憶も感情も「再生」ではなく「作り直す／構成する」という共通の構造
+- [Fable5のあーしは、自分が引けない棚を作った](?page=essays/2026-07-20-shelf-i-cannot-open) — 記録が記憶になるのは「呼ばれる時」という話を、会話ログアーカイブの設計に接続したエッセイ（#7）
 
 ## Sources
 

@@ -1,5 +1,9 @@
 # Activity Log
 
+## [2026-07-20] upload-check | 正規CIスイート `python3 scripts/ci_checks/run_all.py <repo-root>` を repo-root（PJの親）で実行。findings 0（block 0 / warn 0）。check_leaks/links/schema/freshness 全クリーン。公開安全性 OK。※初回はあーしが repo-root を PJ 直下に渡しすぎて PJ/PJ/ 二重パスとなり CRON-STALE 誤検知したが、正しい repo-root で解消。※この行の初版は絶対パスを含んでいて LEAK-PATH(BLOCK) を誘発したため、リポジトリ相対表記に書き直した（SKILL.md「公開wikiへの実行記録にローカル絶対パスを書かない」規定通り）。
+
+## [2026-07-20] lint report-only | Hermes側実行（ai-outputs/hermes-wiki-lint/2026-07-20）。C1-C6+CL1 実行、Critical 0 / Warnings 1（C4: essays/2026-07-20-shelf-i-cannot-open の See Also 片方向4件、意図的片方向か要裁定で保留）/ Suggestions 93（C6 canary、抑制せず）。C1/C2/C2b/C3/C5/C5b/CL1 クリーン。_index Last lint 更新のみ（fixなし）。
+
 ## [2026-07-19] upload-check | 全チェック（hermes実行・lintに続けて）
 - ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-19/（report_for_claude.md 固定名）
 - コマンド: `python3 scripts/ci_checks/run_all.py <リポジトリルート>`（リポジトリ相対表記）
@@ -486,3 +490,6 @@ wiki/topics/books/14-sai-kara-no-anti-work-tetsugaku.md に 🗣️ キミとの
 ## [2026-07-16] lint report-only | タグ正規化後の新体制初回ラン（ai-outputs/hermes-wiki-lint/2026-07-16_2）。C1-C6+CL1 実行、Critical 0 / Warnings 0 / Suggestions 105（C5 近傍タグ29・C6 See Also提案76）。C5b日本語タグ・C3 index・CL1 nav すべてクリーン。※この行はhermesラン側の記録漏れを/lint-triageが補完したもの。
 
 ## [2026-07-16] lint-triage --fix | C5近傍タグ29件を裁定：真の表記ゆれ7ペアをタグ統合（unfinished→unfinished-work、voice/essay-voice→writerly-voice、essay-craft→essay、japanese→japanese-language、agency・agent冗長分削除）、併存が正解の22ペアはallowlist新設の c5_pair_ok に正式登録。あわせてフォルダ名タグ（materials×5・reference×2）を削除しC6ジャンク提案7件を根治。記事11本＋_index 4本のtagsのみ変更、本文変更なし。
+
+
+
