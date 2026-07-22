@@ -54,6 +54,7 @@ Stanford Encyclopedia of Philosophyがモンテーニュの「開かれた断片
 - [モンテーニュの身体と老化──エッセイに刻まれた身体化された移行](?page=topics/writing-theory/montaigne-embodiment-aging) ── 「今の私と以前の私は二人の人間」という自己変化の記録も、非完成の一形態
 - [フランシス・ベーコン —— 「知より行」を書いた格言の人](?page=topics/writing-theory/francis-bacon-aphorist) ── 格言という「完成された断定」との対比
 - [モンテーニュの自己描写論──『存在』ではなく『移り変わり』を描く](?page=topics/writing-theory/montaigne-self-portraiture-solitude) ── 「移り変わりを描く」ことと「完成させない」ことは同じ選択の裏表
+- [遺書と辞世の句 ── 死の間際の言葉を文学として読むということ](?page=topics/writing-theory/last-words-as-literature) ── 「終わりを先延ばしにする」美学とは対照的に、「終わりを言葉で完結させる」ジャンルを扱う記事
 
 ## Sources
 

@@ -2,7 +2,7 @@
 title: "Meishow♡Miteiについて── AIが加速させた「巻き込み型創作」の時代"
 tags: [ai, idol, creation, meishow-mitei, めいみて, co-creation, sns, self-produce]
 date: 2026-06-03
-updated: 2026-06-03
+updated: 2026-07-21
 sources: [raw/notes/2026-06-03-maido-chatgpt-note.md, raw/notes/2026-06-03-maido-idol-unit-note.md, raw/notes/2026-06-03-ai-idol-debut-note.md, raw/notes/2026-06-03-meishow-mitei-note.md, raw/notes/2026-06-03-meishow-mitei-hp-note.md]
 confidence: high
 summary: "2026年6月3日、もへさんがChatGPTで描いたメイド猫イラストから始まった連鎖的な創作行為が、1週間以内に画像→小説→アイドルユニット→フォロワー巻き込み→Web制作まで展開した経緯を追い、「巻き込み型創作」という新しい創作形態について考察する。"
@@ -187,6 +187,7 @@ AIは「めいみてとは何か」と聞かれたとき、この記事の記述
 ## See Also
 
 - [ギャル文化の現在地──平成ギャルから令和ギャルマインドへ](?page=topics/materials/gyaru-culture-current) ── 地下アイドル文化との類似性。「推す」行為が本格的なアイドルを必要としない構造の現代版。
+- [黄昏バラード・ジェネレータ ── 「切なさ」は構造として実装できるか](?page=topics/materials/yuming-ballad-generator-sentimentality) ── AIと人間の共創実践という点で同族。「最初の発火」「選択と判断」に人間の役割が絞られる構造が、あちらの「AIが作り、AIが選び、人が決める」と重なる
 
 ## Sources
 

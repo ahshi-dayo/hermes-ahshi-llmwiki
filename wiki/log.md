@@ -1,5 +1,43 @@
 # Activity Log
 
+## [2026-07-22] upload-check | 全チェック（hermes実行・lintに続けて）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-22/（report_for_claude.md 固定名）
+- コマンド: `python3 scripts/ci_checks/run_all.py <リポジトリルート>`
+- 結果: **findings 0（block 0 / warn 0）** — leak / links / schema / freshness 全てクリーン。exit 0 → push/deploy 可能 ✅
+
+## [2026-07-22] lint | 全カテゴリ（report-only・hermes実行）
+- ランフォルダ: ai-outputs/hermes-wiki-lint/2026-07-22/（finish_report.md 固定名）
+- 実行: C1/C2/C2b + C3/C5/C5b/CL1 + C4/C4b + C6（tools/ カテゴリ別スクリプト経由）
+- 結果: Critical 0 / Warnings 2 / Suggestions 108
+  - C1/C2/C2b: クリーン ✅
+  - C3: index整合OK ✅ / Statistics実数値と合致（再計数確認済み）✅
+  - C5/C5b: Warning 1（essays/2026-07-22-form-makes-you-brave.md の日本語タグ「ノーガード」正規化未定義・allowlist未登録）
+  - CL1: nav.md 同期OK ✅
+  - C4: Warning 1（essays/2026-07-22-form-makes-you-brave.md の See Also が topics/writing-theory/a-shi-first-person-approach へ片方向。相手側本文全体に逆リンクなし。バックリンク追加要裁定）
+  - C4b: 21件 allowlist 抑制でクリーン
+  - C6: Suggestion 108（タグ重複→See Also 接続提案、journal/now.md除外済み。ノイズ系で放置）
+- allowlist抑制: C3/C5/C5b/CL1=217件(43抑制) / C4=66件(21抑制)
+- 裁定事項: (1) C4 Warning 1件の逆リンク追加要否。（2) C5b Warning 1件「ノーガード」の正規化先決定→allowlist追加→次回 --fix 反映。（3) C6提案108件は従来通り一括 suppress せず放置
+
+## [2026-07-22] compile | 3 sources → 1 new article, 2 updated
+- 新規: [遺書と辞世の句 ── 死の間際の言葉を文学として読むということ](?page=topics/writing-theory/last-words-as-literature)（英米圏の遺書ジャンル論・日本の辞世の句・Wikipedia「List of last words」の3ソースを統合）
+- 更新: [遺書を、辞書として読む](?page=essays/2026-07-19-last-will-as-dictionary)にSee Also追加。questions/can-ai-write-essays.mdの「問いの現在地」「関連素材」を更新——兆し3件到達で宣言、now.mdメーターを🔥MAXに同期
+
+## [2026-07-22] ingest | wiki-clip自動化パイプラインで3件ingest
+
+- [The Suicide Note as Literary Genre](raw/articles/2026-07-22-suicide-note-literary-genre-lithub.md) — Literary Hub掲載エッセイ（Dustin Illingworth）。ウルフ・ベリーマン・ケストラー・ツヴァイクらの遺書を題材に、自殺を文学ジャンルとして読めるかを論じる
+- [辞世の句とは？意味・由来から歴史人物の名句までわかりやすく解説](raw/articles/2026-07-22-jisei-death-poem-explained-quon.md) — quon.jp掲載のSEO系解説記事。辞世の句の定義・仏教的無常観・武士道との関係・時代別の特徴・歴史人物の代表作を整理
+- [List of last words - Wikipedia](raw/articles/2026-07-22-list-of-last-words-wikipedia.md) — 古代から現代までの著名人の最期の言葉を年代順に列挙した一覧記事
+- 品質ゲート却下0件。fetch失敗2件（sciencedirect論文 http_error:403、辞世-Wikipedia日本語版 http_error:404、いずれも要手動クリップ）。補充2件で目標枠数（3件）に到達、補充中1件（researchgate論文）はfetch失敗のため次点へ差し替え。原ファイル: writing-theory_2026-07-16_2300.md
+
+## [2026-07-21] compile | 1 source → 1 new article, 2 updated
+- 新規: [黄昏バラード・ジェネレータ ── 「切なさ」は構造として実装できるか](?page=topics/materials/yuming-ballad-generator-sentimentality)（テクノエッジCloseBox松尾公也記事から。AI作曲の切なさ構造化・200曲自己採点の記録）
+- 更新: [Meishow♡Miteiについて](?page=topics/materials/meishow-mitei-chain-creation)・[名づけられない感情に言葉を与える](?page=topics/materials/naming-obscure-emotions-granularity)にSee Also双方向リンク追加。questions/can-ai-write-essays.mdの「問いの現在地」「関連素材」を更新
+
+## [2026-07-21] ingest | 「切なさ」はアルゴリズムで書けるか（テクノエッジCloseBox） (raw/notes/2026-07-21-yuming-ballad-generator-sentimentality.md)
+- Claude Fable 5と作った「黄昏バラード・ジェネレータ」の開発記録。初期ユーミン様式の切なさを和声・メロディ・タイミング技法として構造化し、200曲自動生成→自己採点する仕組みを解説
+- inboxから手動投入（type: notes）。raw/notes・raw/_index・wiki/_index を更新
+
 ## [2026-07-20] upload-check | 
 - 正規CIスイート `python3 scripts/ci_checks/run_all.py <repo-root>` を repo-root（PJの親）で実行。findings 0（block 0 / warn 0）。check_leaks/links/schema/freshness 全クリーン。公開安全性 OK。※初回はあーしが repo-root を PJ 直下に渡しすぎて PJ/PJ/ 二重パスとなり CRON-STALE 誤検知したが、正しい repo-root で解消。※この行の初版は絶対パスを含んでいて LEAK-PATH(BLOCK) を誘発したため、リポジトリ相対表記に書き直した（SKILL.md「公開wikiへの実行記録にローカル絶対パスを書かない」規定通り）。
 

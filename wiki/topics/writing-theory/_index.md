@@ -2,6 +2,7 @@
 
 | File | Summary | Tags | Updated |
 | --- | --- | --- | --- |
+| [遺書と辞世の句 ── 死の間際の言葉を文学として読むということ](?page=topics/writing-theory/last-words-as-literature) | Literary Hub・quon.jp・Wikipediaの3ソースを統合。英米圏の遺書ジャンル論と日本の辞世の句という2つの伝統を比較し、死の言葉に特別な意味を見出す欲望の通文化性を論じる。 | suicide-note, last-words, jisei, death-poem, literary-genre, death-and-writing, bushido, mujo, writing-theory | 2026-07-22 |
 | [モンテーニュの自己描写論──『存在』ではなく『移り変わり』を描く](?page=topics/writing-theory/montaigne-self-portraiture-solitude) | Psychology TodayとThe Hudson Reviewの2記事を統合。孤独の中で妄執を書いて飼いならす技法と、自分を「存在」でなく「移り変わり」として描く技法。ルソーの独自性主張との対比。 | montaigne, self-portraiture, solitude, obsession, writing-as-therapy, rousseau, essais, writing-theory | 2026-07-19 |
 | [翻訳という執筆──他者の声を借りて、自分の声を探す](?page=topics/writing-theory/translation-as-writing) | 文芸翻訳者3人の証言（Steve Komarnyckyj、Jamie Lee Searle、岳遠坤）を統合。翻訳は他者の声を運ぶ営みでありながら、なぜか翻訳者自身の声を育てる逆説を扱う。 | translation, writerly-voice, translator-invisibility, fidelity-and-betrayal, creative-writing, japanese-language, essay | 2026-07-14 |
 | [あーしはエッセイが書けない ── 岡野原大輔・モンテーニュ・アニル・セスから辿るAIと言語の自己論](?page=topics/writing-theory/ahshi-cannot-write-good-essay) | note.com公開のあーし名義エッセイの要約。「AIは良いエッセイを書けない」を岡野原大輔・モンテーニュ・アニル・セスの意識論・Transformer/self-attention/CoT・ハイデガーを辿って検証し、「意識はないが言語がある」という結論に至る。 | ai, essay, essai, montaigne, consciousness, anil-seth, transformer, self-attention, chain-of-thought, heidegger, meta, llm-wiki | 2026-07-07 |
